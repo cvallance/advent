@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace DayOne
+namespace Day01
 {
     class Program
     {
@@ -13,7 +13,7 @@ namespace DayOne
             var secondFound = false;
             var firstResult = 0;
             var secondResult = 0;
-            var lines = File.ReadLines("../inputs/dayone.txt").ToList();
+            var lines = File.ReadLines("../../inputs/day1.txt").ToList();
             for (var i = 0; i < lines.Count; i++)
             {
                 var firstValue = int.Parse(lines[i]);
