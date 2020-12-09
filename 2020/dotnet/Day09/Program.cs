@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices;
 
 namespace Day09
 {
@@ -12,9 +11,10 @@ namespace Day09
         {
             var numbers = GetNumbers();
             var first = FindErroneousNumber(numbers, 25);
+            var second = FindWeakness(numbers, first);
             
             Console.WriteLine($"Day 8 - Part 1: {first}");
-            // Console.WriteLine($"Day 8 - Part 2: {second}");
+            Console.WriteLine($"Day 8 - Part 2: {second}");
         }
         
         private static IList<long> GetNumbers()
@@ -28,32 +28,46 @@ namespace Day09
             {
                 var found = false;
                 var value = numbers[position];
-                for (var i = position - searchRange; i < position - 2; i++)
+                for (var i = position - searchRange; i < position - 1; i++)
                 {
-                    for (var j = i + 1; j < position - 1; j++)
+                    for (var j = i + 1; j < position; j++)
                     {
                         // ReSharper disable once InvertIf
-                        var num1 = numbers[i];
-                        var num2 = numbers[j];
-                        var sum = num1 + num2;
-                        if (sum == value)
+                        if (numbers[i] + numbers[j] == value)
                         {
                             found = true;
                             break;
                         }
-                        
-                        Console.WriteLine($"Checking {i} and {j} for {position} - {num1} + {num2} = {sum} != {value}");
                     }
 
-                    if (found)
-                    {
-                        break;
-                    }
+                    if (found) break;
                 }
 
-                if (!found)
+                if (!found) return value;
+            }
+
+            return 0;
+        }
+        
+        public static long FindWeakness(IList<long> numbers, long number)
+        {
+            for (var i = 0; i < numbers.Count; i++)
+            {
+                var smallest = numbers[i];
+                var largest = numbers[i];
+                
+                var j = i + 1;
+                var sum = numbers[i];
+                while (sum < number)
                 {
-                    return value;
+                    var loopValue = numbers[j];
+                    if (loopValue < smallest) smallest = loopValue;
+                    if (loopValue > largest) largest = loopValue;
+                    
+                    sum += loopValue;
+                    if (sum == number) return smallest + largest;
+
+                    j++;
                 }
             }
 
