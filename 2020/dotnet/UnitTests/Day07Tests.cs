@@ -5,6 +5,7 @@ namespace UnitTests
 {
     public class Day07Tests
     {
+        [Fact]
         public void Part2()
         {
             var bagsData = @"shiny gold bags contain 2 dark red bags.
