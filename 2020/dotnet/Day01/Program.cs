@@ -8,7 +8,6 @@ namespace Day01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             var firstFound = false;
             var secondFound = false;
             var firstResult = 0;
