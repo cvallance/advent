@@ -41,7 +41,6 @@ namespace Day10
                 var waysToBranch = branchCount.GetValueOrDefault(adapter - 1)
                                    + branchCount.GetValueOrDefault(adapter - 2)
                                    + branchCount.GetValueOrDefault(adapter - 3);
-                Console.WriteLine($"{waysToBranch} {adapter}");
                 branchCount[adapter] = waysToBranch;
             }
 
