@@ -72,7 +72,6 @@ namespace Day12
             var waypoint = new Point(10, 1);
             foreach (var (instruction, param) in instructions)
             {
-                Console.WriteLine($"Instruction:{instruction} Param:{param}");
                 switch (instruction)
                 {
                     case Forward:
@@ -117,9 +116,6 @@ namespace Day12
                         }
                         break;
                 }
-
-                Console.WriteLine($"WayPo X:{waypoint.X} Y:{waypoint.Y}");
-                Console.WriteLine($"Local X:{location.X} Y:{location.Y}");
             }
 
             return Math.Abs(location.X) + Math.Abs(location.Y);
