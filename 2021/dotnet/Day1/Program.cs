@@ -17,7 +17,7 @@ Console.WriteLine(higherCount); // 1477
 // Second
 last = int.MaxValue;
 higherCount = 0;
-for (var i = 0; i < numbers.Count - 2; i++)
+for (var i = 0; i <= numbers.Count - 3; i++)
 {
     var number = numbers[i] + numbers[i + 1] + numbers[i + 2];
     if (number > last) higherCount += 1;
