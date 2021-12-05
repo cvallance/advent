@@ -1,10 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-var lines = File.ReadLines("../../inputs/day2.txt").ToList();
+﻿var lines = File.ReadLines("../../inputs/day2.txt").ToList();
 var instructions = lines.Select(x =>
 {
    var values = x.Split(" ");
-   return new { Direction = values[0], Num = int.Parse(values[1]) };
+   return new { Direction = values[0], Distance = int.Parse(values[1]) };
 }).ToList();
 
 // First
@@ -15,13 +13,13 @@ foreach (var instruction in instructions)
    switch (instruction.Direction)
    {
       case "forward":
-         horizontalPos += instruction.Num;
+         horizontalPos += instruction.Distance;
          break;
       case "up":
-         depth -= instruction.Num;
+         depth -= instruction.Distance;
          break;
       case "down":
-         depth += instruction.Num;
+         depth += instruction.Distance;
          break;
    }
 }
@@ -38,14 +36,14 @@ foreach (var instruction in instructions)
    switch (instruction.Direction)
    {
       case "forward":
-         horizontalPos += instruction.Num;
-         depth += instruction.Num * aim;
+         horizontalPos += instruction.Distance;
+         depth += instruction.Distance * aim;
          break;
       case "up":
-         aim -= instruction.Num;
+         aim -= instruction.Distance;
          break;
       case "down":
-         aim += instruction.Num;
+         aim += instruction.Distance;
          break;
    }
 }

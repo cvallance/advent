@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-var lines = File.ReadLines("../../inputs/day1.txt").ToList();
+﻿var lines = File.ReadLines("../../inputs/day1.txt").ToList();
 var numbers = lines.Select(int.Parse).ToList();
 
 // First
