@@ -1,4 +1,7 @@
 ﻿// var lines = File.ReadLines("../../inputs/day5-test.txt").ToList();
+
+using Day5;
+
 var lines = File.ReadLines("../../inputs/day5.txt").ToList();
 
 var points = new Dictionary<Point, int>();
