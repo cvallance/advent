@@ -2,7 +2,7 @@ namespace Day6;
 
 public class FishTwo
 {
-    private long[] _counts = new long[9];
+    private readonly long[] _counts = new long[9];
     
     public FishTwo(int initialState)
     {
