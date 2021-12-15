@@ -1,4 +1,4 @@
-namespace Day12;
+namespace Shared;
 
 public struct Node
 {

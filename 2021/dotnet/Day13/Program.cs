@@ -20,7 +20,6 @@ foreach (var line in lines)
     }
 }
 
-Console.WriteLine(dots.Count);
 while (folds.TryDequeue(out var fold))
 {
     var newDots = new HashSet<Vector>();

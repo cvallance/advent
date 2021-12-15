@@ -1,4 +1,4 @@
-﻿using Day11;
+﻿using Shared;
 
 var octos = new Dictionary<Vector, int>();
 // var lines = File.ReadLines("../../inputs/day11-test.txt").ToList();

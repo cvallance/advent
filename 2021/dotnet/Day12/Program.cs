@@ -1,4 +1,5 @@
 ﻿using Day12;
+using Shared;
 
 // var lines = File.ReadLines("../../inputs/day12-test.txt").ToList();
 var lines = File.ReadLines("../../inputs/day12.txt").ToList();

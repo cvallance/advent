@@ -1,4 +1,4 @@
-namespace Day11;
+namespace Shared;
 
 public struct Vector
 {
