@@ -1,4 +1,5 @@
-﻿using Shared;
+﻿using Microsoft.VisualBasic;
+using Shared;
 
 var lines = File.ReadLines("../../inputs/day15-test.txt").ToList();
 // var lines = File.ReadLines("../../inputs/day15.txt").ToList();
@@ -37,11 +38,14 @@ for (var y = 0; y < 5; y++)
     }
 }
 
-var finish = new Vector(grid.Keys.Max(x => x.X), grid.Keys.Max(x => x.Y));
+var maxX = grid.Keys.Max(x => x.X);
+var maxY = grid.Keys.Max(x => x.Y);
+var finish = new Vector(maxX, maxY);
 
 var lowestScore = int.MaxValue;
+var startPoint = new Vector(0, 0);
 var lowestScores = new Dictionary<Vector, int>();
-void DepthScore(Vector point, int score)
+void DepthScore(Vector point, int score, HashSet<Vector> visited, bool extended)
 {
     if (score >= lowestScore) return;
     if (point == finish)
@@ -49,24 +53,50 @@ void DepthScore(Vector point, int score)
         lowestScore = score;
         return;
     }
-    
-    // Lets assume we just go down and right
-    var pointsToTry = new List<Vector>();
-    var down = new Vector(point.X, point.Y + 1);
-    if (grid.ContainsKey(down)) pointsToTry.Add(down);
-    var right = new Vector(point.X + 1, point.Y);
-    if (grid.ContainsKey(right)) pointsToTry.Add(right);
 
-    foreach (var nextPoint in pointsToTry)
+    // We should say points more than 4 left or 4 up are visited because even if they're all 1s, it would be more
+    // expensive to visit them just to get back
+    if (point.X < startPoint.X - 3) return;
+    if (point.Y < startPoint.Y - 3) return;
+    
+    if (visited.Contains(point)) return;
+    visited.Add(point);
+
+    var pointsToTry = new Dictionary<Vector, char>();
+    var down = new Vector(point.X, point.Y + 1);
+    if (grid.ContainsKey(down)) pointsToTry.Add(down, 'd');
+    var right = new Vector(point.X + 1, point.Y);
+    if (grid.ContainsKey(right)) pointsToTry.Add(right, 'r');
+    if (extended)
     {
-        if (lowestScores.ContainsKey(nextPoint))
+        var left = new Vector(point.X - 1, point.Y);
+        if (grid.ContainsKey(left)) pointsToTry.Add(left, 'l');
+        var up = new Vector(point.X, point.Y - 1);
+        if (grid.ContainsKey(up)) pointsToTry.Add(up, 'u');
+    }
+
+    foreach (var kvp in pointsToTry)
+    {
+        if (lowestScores.ContainsKey(kvp.Key))
         {
-            var newScore = score + lowestScores[nextPoint];
-            if (newScore >= lowestScore) return;
+            var newScore = score + lowestScores[kvp.Key];
+            if (newScore >= lowestScore) continue;
             lowestScore = newScore;
             continue;
         }
-        DepthScore(nextPoint, score + grid[nextPoint]);
+
+        var newVisited = new HashSet<Vector>(visited);
+        if (kvp.Value is 'u' or 'd')
+        {
+            newVisited.Add(new Vector(point.X + 1, point.Y));
+            newVisited.Add(new Vector(point.X - 1, point.Y));
+        }
+        else
+        {
+            newVisited.Add(new Vector(point.X, point.Y + 1));
+            newVisited.Add(new Vector(point.X, point.Y - 1));
+        }
+        DepthScore(kvp.Key, score + grid[kvp.Key], newVisited, extended);
     }
 }
 
@@ -74,11 +104,13 @@ for (var y = finish.Y; y >= 0; y--)
 {
     for (var x = finish.X; x >= 0; x--)
     {
-        lowestScore = Int32.MaxValue;
-        var point = new Vector(x, y);
-        var riskToStart = point == new Vector(0, 0) ? 0 : grid[point];
-        DepthScore(point, riskToStart);
-        lowestScores.Add(point, lowestScore);
+        lowestScore = int.MaxValue;
+        startPoint = new Vector(x, y);
+        var riskToStart = startPoint == new Vector(0, 0) ? 0 : grid[startPoint];
+        DepthScore(startPoint, riskToStart, new HashSet<Vector>(), false);
+        DepthScore(startPoint, riskToStart, new HashSet<Vector>(), true);
+        Console.WriteLine($"{startPoint} => {lowestScore}");
+        lowestScores.Add(startPoint, lowestScore);
     }
 }
 
