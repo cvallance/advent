@@ -62,4 +62,9 @@ public struct Vector
             yield return this + adItem;
         }
     }
+
+    public override string ToString()
+    {
+        return $"x={X} y={Y}";
+    }
 }
