@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using Day16;
+﻿using Day16;
 
 // var hex = "D2FE28";
 // var hex = "38006F45291200";
