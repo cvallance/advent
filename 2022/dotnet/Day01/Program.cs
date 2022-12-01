@@ -17,4 +17,4 @@ foreach (var line in lines)
 if (currentElve > 0) elves.Add(currentElve);
 
 Console.WriteLine($"Part 1: {elves.Max()}");
-Console.WriteLine($"Part 1: {elves.OrderByDescending(x => x).Take(3).Sum()}");
+Console.WriteLine($"Part 2: {elves.OrderByDescending(x => x).Take(3).Sum()}");
