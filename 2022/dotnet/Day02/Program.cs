@@ -1,8 +1,4 @@
-﻿using System.Runtime.InteropServices.ComTypes;
-using System.Security.Cryptography;
-using System.Text;
-
-var lines = File.ReadLines("../../inputs/day2.txt").ToList();
+﻿var lines = File.ReadLines("../../inputs/day2.txt").ToList();
 const string rock = "rock";
 const string paper = "paper";
 const string scissors = "scissors";
