@@ -17,10 +17,9 @@ public static class Solver
             if (setTwo.Count == 14)
             {
                 part2 = i + 14;
+                break;
             }
         }
-        
-        //TODO
         
         return (part1, part2);
     }
