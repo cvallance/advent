@@ -1,6 +1,6 @@
-﻿using DayX;
+﻿using Day10;
 
-var data = File.ReadAllText("../../inputs/DayX.txt").TrimEnd();
+var data = File.ReadAllText("../../inputs/Day10.txt").TrimEnd();
 
 var (part1, part2) = Solver.Solve(data);
 

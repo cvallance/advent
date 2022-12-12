@@ -38,7 +38,7 @@ public struct Vector
         return base.Equals(obj);
     }
 
-    private static List<Vector> _adjacent = new()
+    private static readonly List<Vector> Adjacent = new()
     {
         new Vector(0, 1),
         new Vector(1, 0),
@@ -46,17 +46,17 @@ public struct Vector
         new Vector(-1, 0)
     };
     
-    private static List<Vector> _adjacentDiagonal = new()
+    private static readonly List<Vector> AdjacentDiagonal = new()
     {
-        new Vector(0, 1), new Vector(1, 1), // 0,1 1,1
-        new Vector(1, 0), new Vector(1, -1), // 1,0 1,-1
-        new Vector(0, -1), new Vector(-1, -1), // 0,-1, -1, -1
-        new Vector(-1, 0), new Vector(-1, 1) // -1,0 -1.1
+        new Vector(0, 1), new Vector(1, 1),
+        new Vector(1, 0), new Vector(1, -1),
+        new Vector(0, -1), new Vector(-1, -1),
+        new Vector(-1, 0), new Vector(-1, 1)
     };
     
     public IEnumerable<Vector> GetAdjacent(bool includeDiagonal)
     {
-        var adjacentItems = includeDiagonal ? _adjacentDiagonal : _adjacent;
+        var adjacentItems = includeDiagonal ? AdjacentDiagonal : Adjacent;
         foreach (var adItem in adjacentItems)
         {
             yield return this + adItem;
