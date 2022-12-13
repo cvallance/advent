@@ -45,13 +45,25 @@ public static class Solver
             }
         }
         
+        Console.WriteLine($"Count {signals.Count}");
         for (var i = 0; i < signals.Count; i++)
         {
-            if (i % 40 == 0)
+            var pos = i % 40; 
+            if (pos == 0)
             {
                 Console.WriteLine("");
             }
-            Console.Write("#");
+
+            var signal = signals[i];
+            var spritePos = new[] {signal - 1, signal, signal + 1};
+            if (spritePos.Contains(pos))
+            {
+                Console.Write("#");
+            }
+            else
+            {
+                Console.Write(".");
+            }
         }
         
         return (part1, part2);
