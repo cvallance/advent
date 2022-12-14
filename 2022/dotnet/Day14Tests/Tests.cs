@@ -24,7 +24,7 @@ public class Tests
     public void TestPart2()
     {
         // Arrange
-        var expected = 0;
+        var expected = 93;
         
         // Act
         var (_, part2) = Solver.Solve(TestInput);
