@@ -26,7 +26,7 @@ Sensor at x=20, y=1: closest beacon is at x=15, y=3";
         var expected = 26;
 
         // Act
-        var (part1, _) = Solver.Solve(TestInput, 10);
+        var (part1, _) = Solver.Solve(TestInput, 10, 20);
 
         // Assert
         Assert.Equal(expected, part1);
@@ -36,10 +36,10 @@ Sensor at x=20, y=1: closest beacon is at x=15, y=3";
     public void TestPart2()
     {
         // Arrange
-        var expected = 0;
+        var expected = 56000011;
         
         // Act
-        var (_, part2) = Solver.Solve(TestInput, 10);
+        var (_, part2) = Solver.Solve(TestInput, 10, 20);
 
         // Assert
         Assert.Equal(expected, part2);

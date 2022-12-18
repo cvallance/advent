@@ -1,24 +1,40 @@
 using System.Numerics;
+using System.Text;
+using Shared;
 using Vector = Shared.Vector;
 
 namespace Day15;
 
 public static class Solver
 {
-    public static (int, int) Solve(string data, int rowToTest)
+    public static (int, BigInteger) Solve(string data, int rowToTest, int maxSize)
     {
         var lines = data.Split("\n").ToList();
 
-        var part1 = 0;
-        var part2 = 0;
-
         var sensors = ParseSensors(lines).ToList();
+
+        var part1 = Part1(sensors, rowToTest);
+        var part2 = Part2(sensors, maxSize);
+        return (part1, part2);
+    }
+
+    private static int Part1(List<(Vector, Vector)> sensors, int rowToTest)
+    {
         var beacons = new HashSet<Vector>();
         foreach (var sensorAndBacon in sensors)
         {
             beacons.Add(sensorAndBacon.Item2);
         }
         
+        var cantBe = new HashSet<Vector>();
+
+        void AddToCantBe(Vector vec)
+        {
+            if (beacons!.Contains(vec)) return;
+
+            cantBe!.Add(vec);
+        }
+
         foreach (var sensorAndBacon in sensors)
         {
             var sensor = sensorAndBacon.Item1;
@@ -29,22 +45,93 @@ public static class Solver
             var beaconXAway = sensor.X < beacon.X
                 ? beacon.X - sensor.X
                 : sensor.X - beacon.X;
-            var top = new Vector(sensor.X, sensor.Y - beaconYAway - beaconXAway);
-            var move = 0;
-            while (move >= 0)
+            
+            var top = new Vector(sensor.X, sensor.Y + beaconYAway + beaconXAway);
+            var bottom = new Vector(sensor.X, sensor.Y - beaconYAway - beaconXAway);
+
+            if (rowToTest > top.Y || rowToTest < bottom.Y)
             {
-                var point = new Vector(top.X, y)
-                move++;
+                continue;
             }
-            if (sensor.X == 8 && sensor.Y == 7)
+            
+            var width = rowToTest > sensor.Y ? top.Y - rowToTest : rowToTest - bottom.Y;
+            var point = new Vector(sensor.X, rowToTest);
+            AddToCantBe(point);
+            for (var x = 1; x <= width; x++)
             {
-                Console.WriteLine($"Sensor {sensor}");
-                Console.WriteLine($"Beacon {beacon}");
-                Console.WriteLine($"top {top}");
+                AddToCantBe(point + new Vector(x, 0));
+                AddToCantBe(point + new Vector(-x, 0));
             }
         }
-        
-        return (part1, part2);
+
+        var part1 = cantBe.Count(x => x.Y == rowToTest);
+        return part1;
+    }
+
+    private static BigInteger Part2(List<(Vector, Vector)> sensors, int maxSize)
+    {
+        var lines = new List<List<HorizontalLine>>(maxSize);
+        for (var x = 0; x <= maxSize; x++)
+        {
+            lines.Add(new List<HorizontalLine>());
+        }
+
+        foreach (var sensorAndBacon in sensors)
+        {
+            var sensor = sensorAndBacon.Item1;
+            var beacon = sensorAndBacon.Item2;
+            var beaconYAway = Math.Abs(beacon.Y - sensor.Y);
+            var beaconXAway = Math.Abs(beacon.X - sensor.X);
+            var beaconAway = beaconXAway + beaconYAway;
+            var top = new Vector(sensor.X, sensor.Y + beaconAway);
+            
+            var width = 0;
+            var point = top;
+            while (width >= 0)
+            {
+                if (point.Y < 0 || point.Y > maxSize)
+                {
+                    width = point.Y > sensor.Y ? width + 1 : width - 1;
+                    point += new Vector(0, -1);
+                    continue;
+                }
+                
+                var lineStart = point + new Vector(-width, 0);
+                var lineEnd = point + new Vector(width, 0);
+                var newLine = new HorizontalLine(lineStart, lineEnd);
+
+                var existingLines = lines[point.Y];
+                if (existingLines.Count == 0) existingLines.Add(newLine);
+                
+                var newLines = new List<HorizontalLine>();
+                foreach (var existingLine in existingLines)
+                {
+                    if (newLine.CanJoin(existingLine)) newLine += existingLine;
+                    else newLines.Add(existingLine);
+                }
+                newLines.Add(newLine);
+                lines[point.Y] = newLines;
+
+                width = point.Y > sensor.Y ? width + 1 : width - 1;
+                point += new Vector(0, -1);
+            }
+        }
+
+        foreach (var hLines in lines)
+        {
+            if (hLines.Count == 1) continue;
+
+            var first = hLines[0];
+            var second = hLines[1];
+
+            var xCoOrd = first.Start.X < second.Start.X
+                ? first.End.X + 1
+                : second.End.X + 1;
+            
+            return new BigInteger(xCoOrd * 4_000_000L) + first.Start.Y;
+        }
+
+        return 1;
     }
 
     private static IEnumerable<(Vector, Vector)> ParseSensors(IEnumerable<string> lines)
@@ -62,7 +149,7 @@ public static class Solver
             var thirdEnd = line.IndexOf(',', thirdStart);
             var third = int.Parse(line.Substring(thirdStart +1, thirdEnd - thirdStart - 1));
             var fourthStart = line.IndexOf('=', thirdEnd);
-            var fourth = int.Parse(line.Substring(fourthStart +1));
+            var fourth = int.Parse(line[(fourthStart + 1)..]);
             
             result.Add((new Vector(first, second), new Vector(third, fourth)));
         }
