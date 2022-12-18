@@ -6,11 +6,33 @@ public static class Solver
     {
         var lines = data.Split("\n").ToList();
 
-        var part1 = 0;
-        var part2 = 0;
+        var sw = Stopwatch.StartNew();
+        var stuff = ParseStuff(lines);
+        Console.WriteLine($"Parsing {sw.ElapsedMilliseconds}ms");
+
+        sw.Restart();
+        var part1 = Part1(stuff);
+        Console.WriteLine($"Part1 {sw.ElapsedMilliseconds}ms");
         
-        //TODO
+        sw.Restart();
+        var part2 = Part2(stuff);
+        Console.WriteLine($"Part2 {sw.ElapsedMilliseconds}ms");
         
         return (part1, part2);
+    }
+
+    private IList<string> ParseStuff(IList<string> lines)
+    {
+        return lines;
+    }
+
+    private int Part1(IList<string> stuff)
+    {
+        return 1;
+    }
+
+    private int Part2(IList<string> stuff)
+    {
+        return 1;
     }
 }

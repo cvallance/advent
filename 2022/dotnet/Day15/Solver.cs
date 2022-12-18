@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Numerics;
 using System.Text;
 using Shared;
@@ -11,10 +12,18 @@ public static class Solver
     {
         var lines = data.Split("\n").ToList();
 
+        var sw = Stopwatch.StartNew();
         var sensors = ParseSensors(lines).ToList();
-
+        Console.WriteLine($"Parsing {sw.ElapsedMilliseconds}ms");
+            
+        sw.Restart();
         var part1 = Part1(sensors, rowToTest);
+        Console.WriteLine($"Part1 {sw.ElapsedMilliseconds}ms");
+        
+        sw.Restart();
         var part2 = Part2(sensors, maxSize);
+        Console.WriteLine($"Part2 {sw.ElapsedMilliseconds}ms");
+        
         return (part1, part2);
     }
 
