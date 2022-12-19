@@ -4,7 +4,7 @@ namespace Day16;
 
 public static class Solver
 {
-    private static Dictionary<string, Valve> s_valves = new();
+    private static readonly Dictionary<string, Valve> Valves = new();
     
     public static (int, int) Solve(string data)
     {
@@ -39,61 +39,67 @@ public static class Solver
             var leadsTo = line.Substring(secondEnd + 24).Trim().Split(", ").ToHashSet();
             if (string.IsNullOrEmpty(rootValve)) rootValve = name;
 
-            s_valves[name] = new Valve(name, flow, leadsTo);
+            Valves[name] = new Valve(name, flow, leadsTo);
         }
-        return (s_valves, s_valves[rootValve]);
+
+        foreach (var (startName, startValve) in Valves.Where(x => x.Key == rootValve || x.Value.FlowRate > 0))
+        {
+            var distToValve = new Dictionary<string, int>();
+            var queue = new PriorityQueue<Valve, int>();
+            foreach (var valve in Valves.Values)
+            {
+                distToValve[valve.Name] = valve.Name == startName ? 0 : int.MaxValue;
+            }
+            
+            queue.Enqueue(startValve, 0);
+            while (queue.TryDequeue(out var item, out _))
+            {
+                foreach (var adj in item.LeadsTo)
+                {
+                    var distToAdj = distToValve[item.Name] + 1;
+                    if (distToAdj >= distToValve[adj]) continue;
+
+                    distToValve[adj] = distToAdj;
+                    queue.Enqueue(Valves[adj], distToAdj);
+                }
+            }
+            
+            var otherValves = Valves.Where(x => x.Key != startName && x.Value.FlowRate > 0);
+            foreach (var (otherName, _) in otherValves)
+            {
+                startValve.ShortestDistances[otherName] = distToValve[otherName];
+            }
+        }
+        return (Valves, Valves[rootValve]);
     }
 
     private static int Part1(IDictionary<string, Valve> valves, Valve rootValve)
     {
         var paths = new List<Path>();
         
-        // Breadth first search maintaining a lookup of the best flows for each valve at a given minute
         void FindPath(Path path, Valve currentValve, int time)
         {
             // If we've gone over time, return
             if (time > 30) return;
             
-            // Console.WriteLine($"{time} currentValve {currentValve}");
-            
-            // If there's another path that's already better, return
-            var currentPathPressure = path.CalculatePressure();
-            if (paths.Any(x => x.IsBetter(currentValve.Name, currentPathPressure, time)))
+            foreach (var (nextValveName, nextValveDistance) in currentValve.ShortestDistances)
             {
-                paths.Remove(path);
-                return;
-            }
-
-            // Ok, remove the path a put it's permutations in
-            paths.Remove(path);
-            
-            
-            // Can we open the current valve?
-            if (currentValve.FlowRate > 0 && !path.IsValveOpen(currentValve.Name))
-            {
-                // Console.WriteLine($" opening currentValve {currentValve}");
-                var newPath = path.Clone();
-                newPath.OpenValve(currentValve.Name, time);
-                paths.Add(newPath);
-                FindPath(newPath, currentValve, time + 1);
-            }
-
-            foreach (var nextValveName in currentValve.LeadsTo)
-            {
-                var nextValve = s_valves[nextValveName];
-                // Console.WriteLine($" moving to {currentValve}");
+                if (path.ValvesOpen.ContainsKey(nextValveName)) continue;
+                
+                var nextValve = Valves[nextValveName];
                 var newPath = path.Clone();
                 paths.Add(newPath);
-                FindPath(newPath, nextValve, time + 1);
+                newPath.ValvesOpen[nextValveName] = time + nextValveDistance;
+                FindPath(newPath, nextValve, time + nextValveDistance + 1);
             }
         }
 
         var firstPath = new Path();
         paths.Add(firstPath);
         FindPath(firstPath, rootValve, 1);
-        
-        Console.WriteLine($"Paths {paths.Count}");
-        Console.WriteLine($"Max {paths.Max(x => x.CalculatePressure())}");
+
+        var bestPath = paths.OrderByDescending(x => x.CalculatePressure()).First();
+        bestPath.Print();
         return paths.Max(x => x.CalculatePressure());
     }
 
@@ -102,66 +108,59 @@ public static class Solver
         return 1;
     }
 
-    public record Valve(string Name, int FlowRate, HashSet<string> LeadsTo);
+    public record Valve(
+        string Name,
+        int FlowRate,
+        HashSet<string> LeadsTo)
+    {
+        public readonly Dictionary<string, int> ShortestDistances = new();
+
+        public override int GetHashCode()
+        {
+            return Name.GetHashCode();
+        }
+    }
 
     public class Path
     {
-        public readonly Dictionary<int, string> ValvesOpen;
+        public readonly Dictionary<string, int> ValvesOpen;
 
-        public Path() : this(new Dictionary<int, string>()) { }
+        public Path() : this(new Dictionary<string, int>()) { }
 
-        private Path(Dictionary<int, string> valvesOpen)
+        private Path(Dictionary<string, int> valvesOpen)
         {
             ValvesOpen = valvesOpen;
         }
 
         public Path Clone()
         {
-            return new Path(new Dictionary<int, string>(ValvesOpen));
+            return new Path(new Dictionary<string, int>(ValvesOpen));
         }
         
         public bool IsValveOpen(string valveName)
         {
-            return ValvesOpen.Any(x => x.Value == valveName);
+            return ValvesOpen.Any(x => x.Key == valveName);
         }
         
         public void OpenValve(string valveName, int time)
         {
-            ValvesOpen[time] = valveName;
-        }
-        
-        public bool IsBetter(string otherPathValveName, int otherPathPressure, int time)
-        {
-            // // We only compare if they're on the same valve at the same time
-            // if (!ValvesOpen.TryGetValue(time, out var valveName) || valveName != otherPathValveName) return false;
-            // return CalculatePressureAtTime(time) > otherPathPressure;
-            
-            return ValvesOpen.Any(
-                x => x.Key < time 
-                     && x.Value == otherPathValveName 
-                     && CalculatePressureAtTime(x.Key) > otherPathPressure);
-        }
-        
-        public int CalculatePressureAtTime(int atTime)
-        {
-            var pressure = 0;
-            foreach (var (time, valveName) in ValvesOpen)
-            {
-                if (time > atTime) continue;
-                pressure += (30 - time) * s_valves[valveName].FlowRate;
-            }
-
-            return pressure;
+            ValvesOpen[valveName] = time;
         }
 
         public int CalculatePressure()
         {
+            return CalculatePressureAtTime(30);
+        }
+
+        public int CalculatePressureAtTime(int timeLimit)
+        {
             var pressure = 0;
             foreach (var valveOpen in ValvesOpen)
             {
-                var time = valveOpen.Key;
-                var valveName = valveOpen.Value;
-                pressure += (30 - time) * s_valves[valveName].FlowRate;
+                var valveName = valveOpen.Key;
+                var time = valveOpen.Value;
+                if (time > timeLimit) continue;
+                pressure += Valves[valveName].FlowRate * (30 - time);
             }
 
             return pressure;
@@ -177,11 +176,14 @@ public static class Solver
                 Console.WriteLine(valvesOpen.Any() 
                     ? $"Valve(s) {string.Join(", ", valvesOpen)} are open, releasing {pressure} pressure." 
                     : "No valves are open.");
-                
-                if (ValvesOpen.TryGetValue(i, out var valveName))
+                Console.WriteLine($"Running pressure {CalculatePressureAtTime(i)}");
+
+                if (ValvesOpen.Any(x => x.Value == i))
                 {
+                    var openingValve = ValvesOpen.SingleOrDefault(x => x.Value == i);
+                    var valveName = openingValve.Key;
                     valvesOpen.Add(valveName);
-                    pressure += s_valves[valveName].FlowRate;
+                    pressure += Valves[valveName].FlowRate;
                     Console.WriteLine($"You open valve {valveName}");
                 }
                 
