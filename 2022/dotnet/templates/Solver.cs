@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 namespace DayX;
 
 public static class Solver
@@ -21,17 +23,17 @@ public static class Solver
         return (part1, part2);
     }
 
-    private IList<string> ParseStuff(IList<string> lines)
+    private static IList<string> ParseStuff(IList<string> lines)
     {
         return lines;
     }
 
-    private int Part1(IList<string> stuff)
+    private static int Part1(IList<string> stuff)
     {
         return 1;
     }
 
-    private int Part2(IList<string> stuff)
+    private static int Part2(IList<string> stuff)
     {
         return 1;
     }
