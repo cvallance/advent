@@ -32,7 +32,7 @@ Valve JJ has flow rate=21; tunnel leads to valve II";
     public void TestPart2()
     {
         // Arrange
-        var expected = 0;
+        var expected = 1;
         
         // Act
         var (_, part2) = Solver.Solve(TestInput);
