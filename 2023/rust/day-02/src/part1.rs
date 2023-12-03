@@ -1,9 +1,7 @@
 use crate::custom_error::AocError;
 use crate::shared::parse_games;
 
-pub fn process(
-    _input: &str,
-) -> miette::Result<i32, AocError> {
+pub fn process(_input: &str) -> miette::Result<i32, AocError> {
     let max_blue = 14;
     let max_red = 12;
     let max_green = 13;
@@ -18,6 +16,7 @@ pub fn process(
         }
         result += game.id;
     }
+
     Ok(result)
 }
 

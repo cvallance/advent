@@ -27,11 +27,39 @@
 // Of course, the actual engine schematic is much larger. What is the sum of all of the part numbers in the engine schematic?
 
 use crate::custom_error::AocError;
+use crate::shared::parse_parts;
+use std::collections::HashSet;
 
-pub fn process(
-    _input: &str,
-) -> miette::Result<String, AocError> {
-    todo!("day x - part 1");
+pub fn process(input: &str) -> miette::Result<u32, AocError> {
+    let symbols = vec!['#', '*', '$', '+', '/', '@', '&', '!', '?', '%', '^', '='];
+    let symbols: HashSet<char> = symbols.into_iter().collect();
+
+    let schematic: Vec<Vec<char>> = input
+        .lines()
+        .map(|line| line.chars().collect())
+        .collect::<Vec<_>>();
+
+    let parts = parse_parts(&schematic);
+    let mut result = 0;
+    for part in parts {
+        let adjacent = part.all_adjacent();
+        for adj in adjacent {
+            if adj.x < 0
+                || adj.y < 0
+                || adj.x >= schematic[0].len() as i32
+                || adj.y >= schematic.len() as i32
+            {
+                continue;
+            }
+
+            if symbols.contains(&schematic[adj.y as usize][adj.x as usize]) {
+                result += part.number;
+            }
+        }
+        println!("{:?}", part);
+    }
+
+    Ok(result)
 }
 
 #[cfg(test)]
@@ -40,9 +68,8 @@ mod tests {
 
     #[test]
     fn test_process() -> miette::Result<()> {
-        todo!("haven't built test yet");
         let input = include_str!("../test_input.txt");
-        assert_eq!("", process(input)?);
+        assert_eq!(4361, process(input)?);
         Ok(())
     }
 }

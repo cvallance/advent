@@ -22,16 +22,15 @@
 
 use crate::custom_error::AocError;
 
-pub fn process(
-    input: &str,
-) -> miette::Result<i32, AocError> {
+pub fn process(input: &str) -> miette::Result<i32, AocError> {
     let mut total = 0;
     for line in input.lines() {
         let mut first = -1;
         let mut last = -1;
         // Loop input characters and try parse them as numbers
+
         for c in line.chars() {
-            if c.is_numeric() {
+            if c.is_ascii_digit() {
                 let num = c.to_digit(10).unwrap() as i32;
                 if first == -1 {
                     first = num;

@@ -1,9 +1,7 @@
 use crate::custom_error::AocError;
 use crate::shared::parse_games;
 
-pub fn process(
-    _input: &str,
-) -> miette::Result<i32, AocError> {
+pub fn process(_input: &str) -> miette::Result<i32, AocError> {
     let games = parse_games(_input);
 
     let mut result = 0;
@@ -39,4 +37,3 @@ mod tests {
         Ok(())
     }
 }
-

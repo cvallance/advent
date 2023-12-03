@@ -1,12 +1,10 @@
-use std::collections::HashMap;
 use crate::custom_error::AocError;
+use std::collections::HashMap;
 
-pub fn process(
-    input: &str,
-) -> miette::Result<i32, AocError> {
+pub fn process(input: &str) -> miette::Result<i32, AocError> {
     let words = vec![
-        "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
-        "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
+        "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "0", "1",
+        "2", "3", "4", "5", "6", "7", "8", "9",
     ];
     let mut words_to_numbers: HashMap<&str, i32> = HashMap::new();
     words_to_numbers.insert("zero", 0);

@@ -13,19 +13,24 @@ pub fn parse_games(input: &str) -> Vec<Game> {
     let mut games = Vec::new();
 
     for line in input.lines() {
-        let parts: Vec<&str> = line.split(":").collect();
+        let parts: Vec<&str> = line.split(':').collect();
         if parts.len() != 2 {
             continue;
         }
 
-        let id = parts[0].split_whitespace().nth(1).unwrap().parse::<i32>().unwrap();
-        let sets_str: Vec<&str> = parts[1].trim().split(";").collect();
+        let id = parts[0]
+            .split_whitespace()
+            .nth(1)
+            .unwrap()
+            .parse::<i32>()
+            .unwrap();
+        let sets_str: Vec<&str> = parts[1].trim().split(';').collect();
         let mut sets = Vec::new();
         for set_str in sets_str {
             sets.push(parse_game_set(set_str));
         }
 
-        games.push(Game { id, sets, });
+        games.push(Game { id, sets });
     }
 
     games
@@ -36,9 +41,13 @@ fn parse_game_set(set_str: &str) -> GameSet {
     let mut red = 0;
     let mut green = 0;
 
-    let parts: Vec<&str> = set_str.split(",").collect();
+    let parts: Vec<&str> = set_str.split(',').collect();
     for part in parts {
-        let [count, color]: [&str; 2] = part.trim().split_whitespace().collect::<Vec<&str>>().try_into().unwrap();
+        let [count, color]: [&str; 2] = part
+            .split_whitespace()
+            .collect::<Vec<&str>>()
+            .try_into()
+            .unwrap();
         match color {
             "blue" => blue = count.parse().unwrap(),
             "red" => red = count.parse().unwrap(),
@@ -47,6 +56,5 @@ fn parse_game_set(set_str: &str) -> GameSet {
         }
     }
 
-    GameSet { blue, red, green, }
+    GameSet { blue, red, green }
 }
-
