@@ -44,7 +44,10 @@ pub fn process(
                     first_idx = idx;
                     first_word = word;
                 }
+            }
 
+            if let Some(idx) = line.rfind(word) {
+                let idx = idx as i32;
                 if idx > last_idx {
                     last_idx = idx;
                     last_word = word;
