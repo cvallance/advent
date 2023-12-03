@@ -57,8 +57,6 @@ pub fn process(
 
         numbers.push(words_to_numbers[first_word] * 10 + words_to_numbers[last_word]);
     }
-    tracing::info!("{:?}", numbers);
-    tracing::info!("{:?}", numbers.len());
     Ok(numbers.iter().sum())
 }
 
