@@ -38,7 +38,7 @@ impl Point {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub struct Part {
     pub number: u32,
     pub point: Point,
@@ -81,7 +81,66 @@ pub fn parse_parts(content: &Vec<Vec<char>>) -> Vec<Part> {
                 number.clear();
             }
         }
+
+        if !number.is_empty() {
+            let len = number.len();
+            parts.push(Part {
+                number: number.iter().collect::<String>().parse::<u32>().unwrap(),
+                point: Point::new(start_x, start_y),
+                len,
+            });
+            number.clear();
+        }
     }
 
     parts
+}
+
+// Write tests for Part
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_part_all_adjacent() {
+        let part = Part {
+            number: 123,
+            point: Point::new(0, 0),
+            len: 1,
+        };
+        let expected = vec![
+            Point::new(-1, -1),
+            Point::new(-1, 0),
+            Point::new(-1, 1),
+            Point::new(0, -1),
+            Point::new(0, 1),
+            Point::new(1, -1),
+            Point::new(1, 0),
+            Point::new(1, 1),
+        ];
+        let actual = part.all_adjacent();
+        assert_eq!(expected.len(), actual.len());
+        for point in expected {
+            assert!(actual.contains(&point));
+        }
+    }
+
+    #[test]
+    fn test_parse_parts() {
+        let input = vec![vec!['1', '2', '3', '4', '5'], vec!['6', '7', '8', '9', '0']];
+        let expected = vec![
+            Part {
+                number: 12345,
+                point: Point::new(0, 0),
+                len: 5,
+            },
+            Part {
+                number: 67890,
+                point: Point::new(0, 1),
+                len: 5,
+            },
+        ];
+        let actual = parse_parts(&input);
+        assert_eq!(expected, actual);
+    }
 }

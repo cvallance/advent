@@ -29,9 +29,10 @@
 use crate::custom_error::AocError;
 use crate::shared::parse_parts;
 use std::collections::HashSet;
+use tracing::info;
 
 pub fn process(input: &str) -> miette::Result<u32, AocError> {
-    let symbols = vec!['#', '*', '$', '+', '/', '@', '&', '!', '?', '%', '^', '='];
+    let symbols = vec!['$', '%', '/', '-', '=', '&', '*', '+', '@', '#'];
     let symbols: HashSet<char> = symbols.into_iter().collect();
 
     let schematic: Vec<Vec<char>> = input
@@ -41,7 +42,7 @@ pub fn process(input: &str) -> miette::Result<u32, AocError> {
 
     let parts = parse_parts(&schematic);
     let mut result = 0;
-    for part in parts {
+    'outer: for part in parts {
         let adjacent = part.all_adjacent();
         for adj in adjacent {
             if adj.x < 0
@@ -54,9 +55,9 @@ pub fn process(input: &str) -> miette::Result<u32, AocError> {
 
             if symbols.contains(&schematic[adj.y as usize][adj.x as usize]) {
                 result += part.number;
+                continue 'outer;
             }
         }
-        println!("{:?}", part);
     }
 
     Ok(result)
