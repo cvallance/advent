@@ -29,9 +29,6 @@ use crate::shared::{parse_parts, Point};
 use std::collections::{HashMap, HashSet};
 
 pub fn process(input: &str) -> miette::Result<u32, AocError> {
-    let symbols = vec!['$', '%', '/', '-', '=', '&', '*', '+', '@', '#'];
-    let symbols: HashSet<char> = symbols.into_iter().collect();
-
     let schematic: Vec<Vec<char>> = input
         .lines()
         .map(|line| line.chars().collect())
