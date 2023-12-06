@@ -1,5 +1,5 @@
 name: advent
-root: ~/src/advent
+root: ~/src/advent/2023/rust
 windows:
   - bash:
       root: ~/src/advent/2023/rust
