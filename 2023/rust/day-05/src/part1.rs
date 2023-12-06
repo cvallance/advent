@@ -93,112 +93,20 @@
 // What is the lowest location number that corresponds to any of the initial seed numbers?
 
 use crate::custom_error::AocError;
+use crate::shared::{get_location, parse_input, Mapping};
 use std::collections::HashMap;
-use tracing::info;
 
 pub fn process(input: &str) -> miette::Result<u64, AocError> {
     let (seeds, mappings) = parse_input(input);
-    info!("seeds: {:?}", seeds);
-    info!("mappings: {:?}", mappings);
 
-    let mut results = seeds;
-    let mut from = "seed".to_string();
-    while let Some(from_to_mapping) = mappings.get(&from) {
-        info!("from: {:?}", &from);
-        info!("to: {:?}", &from_to_mapping.to);
-        for (_, value) in results.iter_mut().enumerate() {
-            info!("\t old value: {:?}", value);
-            let mut found_mapping = false;
-            for mapping in &from_to_mapping.mappings {
-                if mapping.source_start <= *value && mapping.source_start + mapping.length > *value
-                {
-                    found_mapping = true;
-                    info!("\t mapping: {:?}", mapping);
-                    *value = mapping.dest_start + (*value - mapping.source_start);
-                    info!("\t new value: {:?}", value);
-                    break;
-                }
-            }
-
-            if !found_mapping {
-                info!("\t didn't find mapping, leaving value as is");
-                info!("\t new value: {:?}", value);
-            }
-        }
-        from = from_to_mapping.to.clone();
+    let mut results = vec![];
+    for seed in seeds {
+        let value = get_location(seed, &mappings);
+        results.push(value);
     }
 
-    info!("results: {:?}", results);
     let min_result = results.iter().min().unwrap();
     return Ok(*min_result);
-}
-
-#[derive(Debug)]
-struct FromToMapping {
-    from: String,
-    to: String,
-    mappings: Vec<RangeMapping>,
-}
-
-#[derive(Debug)]
-struct RangeMapping {
-    source_start: u64,
-    dest_start: u64,
-    length: u64,
-}
-
-fn parse_input(input: &str) -> (Vec<u64>, HashMap<String, FromToMapping>) {
-    let mut lines = input.lines();
-    let seeds = lines
-        .next()
-        .unwrap()
-        .split_whitespace()
-        .skip(1)
-        .map(|s| s.parse::<u64>().unwrap())
-        .collect::<Vec<u64>>();
-
-    let mut mappings = HashMap::new();
-    let mut from: String = "".to_string();
-    let mut to: String = "".to_string();
-    for line in lines {
-        if line.contains("-to-") {
-            let parts = line
-                .split_whitespace()
-                .next()
-                .unwrap()
-                .split("-to-")
-                .collect::<Vec<&str>>();
-            from = parts[0].to_string();
-            to = parts[1].to_string();
-            mappings.insert(
-                from.clone(),
-                FromToMapping {
-                    from: from.clone(),
-                    to,
-                    mappings: Vec::new(),
-                },
-            );
-        } else if line.len() == 0 {
-            continue;
-        } else {
-            let mut parts = line.split_whitespace();
-            let dest_start = parts.next().unwrap().parse::<u64>().unwrap();
-            let source_start = parts.next().unwrap().parse::<u64>().unwrap();
-            let length = parts.next().unwrap().parse::<u64>().unwrap();
-
-            mappings
-                .get_mut(&from)
-                .unwrap()
-                .mappings
-                .push(RangeMapping {
-                    source_start,
-                    dest_start,
-                    length,
-                });
-        }
-    }
-
-    (seeds, mappings)
 }
 
 #[cfg(test)]
@@ -207,7 +115,6 @@ mod tests {
 
     #[test]
     fn test_process() -> miette::Result<()> {
-
         let input = include_str!("../test_input.txt");
         assert_eq!(35, process(input)?);
         Ok(())

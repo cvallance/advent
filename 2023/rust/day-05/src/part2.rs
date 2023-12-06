@@ -16,22 +16,32 @@ use crate::shared::parse_input;
 use tracing::info;
 
 pub fn process(input: &str) -> miette::Result<u64, AocError> {
-    let input = include_str!("../test_input.txt");
+    // let input = include_str!("../test_input.txt");
     let (seeds, mut mappings) = parse_input(input);
 
-    info!("Seeds: {:?}", seeds);
-    let mut source = 0;
-    for mapping in mappings.iter().rev() {
-        let lowest = mapping
-            .ranges
-            .iter()
-            .filter(|x| x.source >= source)
-            .min_by(|a, b| a.dest.cmp(&b.dest));
-        source = lowest.unwrap().source;
-        info!("Mapping: {:?}", lowest);
+    let mut result = 0;
+    'outer: for location in 0..u64::MAX {
+        let mut value = location;
+        for mapping in mappings.iter().rev() {
+            for range in mapping.ranges.iter() {
+                if range.dest <= value && range.dest + range.length > value {
+                    value = range.source + (value - range.dest);
+                    break;
+                }
+            }
+        }
+
+        for i in (0..seeds.len()).step_by(2) {
+            let start = seeds[i];
+            let length = seeds[i + 1];
+            if value >= start && value < start + length {
+                result = location;
+                break 'outer;
+            }
+        }
     }
 
-    Ok(46)
+    Ok(result)
 }
 
 #[cfg(test)]
@@ -40,7 +50,6 @@ mod tests {
 
     #[test]
     fn test_process() -> miette::Result<()> {
-
         let input = include_str!("../test_input.txt");
         assert_eq!(46, process(input)?);
         Ok(())

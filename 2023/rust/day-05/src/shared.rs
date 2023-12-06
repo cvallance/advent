@@ -58,3 +58,17 @@ pub fn parse_input(input: &str) -> (Vec<u64>, Vec<Mapping>) {
 
     (seed_values, mappings)
 }
+
+pub fn get_location(seed: u64, mappings: &Vec<Mapping>) -> u64 {
+    let mut value = seed;
+    for mapping in mappings {
+        for range in &mapping.ranges {
+            if range.source <= value && range.source + range.length > value {
+                value = range.dest + (value - range.source);
+                break;
+            }
+        }
+    }
+
+    value
+}
