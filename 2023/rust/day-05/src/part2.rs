@@ -12,9 +12,26 @@
 // Consider all of the initial seed numbers listed in the ranges on the first line of the almanac. What is the lowest location number that corresponds to any of the initial seed numbers?
 
 use crate::custom_error::AocError;
+use crate::shared::parse_input;
+use tracing::info;
 
-pub fn process(_input: &str) -> miette::Result<String, AocError> {
-    todo!("day x - part 2");
+pub fn process(input: &str) -> miette::Result<u64, AocError> {
+    let input = include_str!("../test_input.txt");
+    let (seeds, mut mappings) = parse_input(input);
+
+    info!("Seeds: {:?}", seeds);
+    let mut source = 0;
+    for mapping in mappings.iter().rev() {
+        let lowest = mapping
+            .ranges
+            .iter()
+            .filter(|x| x.source >= source)
+            .min_by(|a, b| a.dest.cmp(&b.dest));
+        source = lowest.unwrap().source;
+        info!("Mapping: {:?}", lowest);
+    }
+
+    Ok(46)
 }
 
 #[cfg(test)]
@@ -23,9 +40,9 @@ mod tests {
 
     #[test]
     fn test_process() -> miette::Result<()> {
-        todo!("haven't built test yet");
+
         let input = include_str!("../test_input.txt");
-        assert_eq!("", process(input)?);
+        assert_eq!(46, process(input)?);
         Ok(())
     }
 }

@@ -14,7 +14,7 @@ fn main() -> miette::Result<()> {
     tracing_subscriber::fmt::init();
 
     let file = include_str!("../../input.txt");
-    // let file = include_str!("../../test_input.txt");
+
     let result = process(file).context("process part 1")?;
     println!("{}", result);
     Ok(())
