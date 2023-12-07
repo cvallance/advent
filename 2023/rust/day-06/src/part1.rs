@@ -40,10 +40,45 @@
 // Determine the number of ways you could beat the record in each race. What do you get if you multiply these numbers together?
 
 use crate::custom_error::AocError;
+use crate::shared::calc_distance;
 
-pub fn process(_input: &str) -> miette::Result<u64, AocError> {
-    let input = include_str!("../test_input.txt");
-    Ok(288)
+pub fn process(input: &str) -> miette::Result<u64, AocError> {
+    // let input = include_str!("../test_input.txt");
+    let (times, records) = parse_values(input);
+
+    let mut results = 1;
+    for (time, record) in times.iter().zip(records.iter()) {
+        let mut count = 0;
+        for i in 1..*time {
+            let distance = calc_distance(i, *time);
+            if distance > *record {
+                count += 1;
+            }
+        }
+        results *= count;
+    }
+
+    Ok(results)
+}
+
+pub fn parse_values(input: &str) -> (Vec<u64>, Vec<u64>) {
+    let mut lines = input.lines().into_iter();
+    let times = lines
+        .nth(0)
+        .unwrap()
+        .trim_start_matches("Time: ")
+        .split_whitespace()
+        .map(|x| x.parse::<u64>().unwrap())
+        .collect::<Vec<u64>>();
+    let distances = lines
+        .nth(0)
+        .unwrap()
+        .trim_start_matches("Distance: ")
+        .split_whitespace()
+        .map(|x| x.parse::<u64>().unwrap())
+        .collect::<Vec<u64>>();
+
+    (times, distances)
 }
 
 #[cfg(test)]
