@@ -2,7 +2,6 @@ use std::cmp::Ordering;
 use std::collections::HashMap;
 use strum::IntoEnumIterator;
 use strum_macros::EnumIter;
-use tracing::info;
 
 #[derive(Debug)]
 pub enum HandType {
@@ -88,8 +87,6 @@ impl HandAndBet {
             without_jokers.insert(card.clone(), count.clone());
         }
         let joker_count = self.card_counts.get(&Card::Joker).unwrap_or(&0);
-
-        info!("Without jokers: {:?}", without_jokers);
 
         if without_jokers.iter().any(|(_, count)| *count == 5) {
             return HandType::FiveOfAKind;

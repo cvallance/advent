@@ -51,7 +51,6 @@
 
 use crate::custom_error::AocError;
 use crate::shared::parse_input;
-use tracing::info;
 
 pub fn process(input: &str) -> miette::Result<u64, AocError> {
     // let input = include_str!("../test_input.txt");

@@ -20,7 +20,6 @@
 
 use crate::custom_error::AocError;
 use crate::shared_two::parse_input;
-use tracing::info;
 
 pub fn process(input: &str) -> miette::Result<u64, AocError> {
     // let input = include_str!("../test_input.txt");
@@ -29,8 +28,6 @@ pub fn process(input: &str) -> miette::Result<u64, AocError> {
 
     let mut result: u64 = 0;
     for (rank, cards_and_bet) in cards_and_bets.iter().enumerate() {
-        info!("cards: {:?}", cards_and_bet.cards);
-        info!("Rank and bet: {:?} {:?}", rank, cards_and_bet.bet);
         result += (rank as u64 + 1) * cards_and_bet.bet;
     }
 
