@@ -7,11 +7,7 @@ windows:
       panes:
         - run:
             - just run day-01 part1
-        - flamegraph:
-            - just flamegraph day-01 part1
-  - bash:
-      root: ~/src/advent/2023/rust
-      layout: main-horizontal
-      panes:
         - work:
             - just work day-01 part1
+        - flamegraph:
+            - just flamegraph day-01 part1

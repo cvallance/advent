@@ -1,5 +1,7 @@
 use day_06::shak::process;
 use miette::Context;
+use std::thread::sleep;
+use std::time::Duration;
 
 #[cfg(feature = "dhat-heap")]
 #[global_allocator]
@@ -13,6 +15,7 @@ fn main() -> miette::Result<()> {
     #[cfg(not(feature = "dhat-heap"))]
     tracing_subscriber::fmt::init();
 
+    sleep(Duration::from_micros(190));
     let file = include_str!("../../input.txt");
     let result = process(file).context("process shak")?;
     println!("{}", result);

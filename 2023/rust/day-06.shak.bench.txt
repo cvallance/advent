@@ -4,3 +4,9 @@ day_06_bench  fastest       │ slowest       │ median        │ mean        
 day_06_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
 ╰─ shak       253.8 ns      │ 4.764 µs      │ 262.8 ns      │ 312.6 ns      │ 100     │ 100
 
+day_06_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ shak       256.8 ns      │ 5.259 µs      │ 260.8 ns      │ 316 ns        │ 100     │ 100
+
+day_06_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ shak       253.8 ns      │ 4.816 µs      │ 258.8 ns      │ 310 ns        │ 100     │ 100
+
