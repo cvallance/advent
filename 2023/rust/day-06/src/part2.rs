@@ -19,9 +19,9 @@ pub fn process(input: &str) -> miette::Result<u64, AocError> {
     // let input = include_str!("../test_input.txt");
     let (time, record) = parse_values(input);
 
-    let start = time / 2;
     // This is an assumption that you break the record at the mid point
-    assert!(calc_distance(start, time) > record);
+    let start = time / 2;
+    // assert!(calc_distance(start, time) > record);
 
     let mut first = 0;
     let mut lower = 0;

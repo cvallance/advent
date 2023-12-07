@@ -1,0 +1,63 @@
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.311 µs      │ 4.992 µs      │ 1.421 µs      │ 1.466 µs      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.306 µs      │ 3.41 µs       │ 1.378 µs      │ 1.44 µs       │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.317 µs      │ 4.739 µs      │ 1.475 µs      │ 1.607 µs      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.283 µs      │ 3.901 µs      │ 1.393 µs      │ 1.437 µs      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.29 µs       │ 3.255 µs      │ 1.449 µs      │ 1.476 µs      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.835 µs      │ 4.6 µs        │ 1.965 µs      │ 2.005 µs      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.033 ms      │ 1.15 ms       │ 1.045 ms      │ 1.049 ms      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.034 ms      │ 1.318 ms      │ 1.049 ms      │ 1.063 ms      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.084 ms      │ 1.199 ms      │ 1.105 ms      │ 1.106 ms      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.065 ms      │ 1.185 ms      │ 1.077 ms      │ 1.081 ms      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.047 ms      │ 1.179 ms      │ 1.07 ms       │ 1.072 ms      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.069 ms      │ 1.199 ms      │ 1.085 ms      │ 1.089 ms      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.067 ms      │ 1.196 ms      │ 1.081 ms      │ 1.083 ms      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.055 ms      │ 1.217 ms      │ 1.075 ms      │ 1.088 ms      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.06 ms       │ 1.204 ms      │ 1.076 ms      │ 1.08 ms       │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.046 ms      │ 1.193 ms      │ 1.078 ms      │ 1.081 ms      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.059 ms      │ 1.186 ms      │ 1.078 ms      │ 1.081 ms      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.045 ms      │ 1.203 ms      │ 1.07 ms       │ 1.07 ms       │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.069 ms      │ 1.189 ms      │ 1.079 ms      │ 1.083 ms      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.05 ms       │ 1.189 ms      │ 1.08 ms       │ 1.082 ms      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      1.073 ms      │ 1.189 ms      │ 1.088 ms      │ 1.091 ms      │ 100     │ 100
+
