@@ -36,7 +36,6 @@ pub fn process(input: &str) -> miette::Result<u64, AocError> {
         }
 
         if higher - lower == 1 {
-            info!("HERE {} {}", lower, higher);
             if calc_distance(lower, time) > record {
                 first = lower;
             } else {
@@ -47,8 +46,28 @@ pub fn process(input: &str) -> miette::Result<u64, AocError> {
     }
 
     let mut last = time;
+    let mut lower = start;
+    let mut higher = time;
+    loop {
+        let idx = (lower + higher) / 2;
+        let distance = calc_distance(idx, time);
+        if distance < record {
+            higher = idx;
+        } else {
+            lower = idx;
+        }
 
-    let result = last - first;
+        if higher - lower == 1 {
+            if calc_distance(lower, time) > record {
+                last = lower;
+            } else {
+                last = higher;
+            }
+            break;
+        }
+    }
+
+    let result = last - first + 1;
     Ok(result)
 }
 
