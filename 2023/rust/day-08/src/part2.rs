@@ -60,8 +60,6 @@ pub fn process(input: &str) -> miette::Result<u64, AocError> {
         results.push(result);
     }
 
-    info!("Results: {:?}", results);
-
     let result = results.iter().fold(1, |acc, x| lcm(acc, *x));
     Ok(result)
 }
