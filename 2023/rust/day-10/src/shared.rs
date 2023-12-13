@@ -1,4 +1,77 @@
+use std::collections::{HashSet, VecDeque};
 use std::ops::{Add, Sub};
+
+pub fn find_start(grid: &Vec<Vec<Pipe>>) -> Point {
+    let mut start = Point::new(0, 0);
+    'outer: for (y, row) in grid.iter().enumerate() {
+        for (x, pipe) in row.iter().enumerate() {
+            if *pipe == Pipe::Start {
+                start = Point::new(x as i32, y as i32);
+                break 'outer;
+            }
+        }
+    }
+    start
+}
+
+pub fn create_pipe_system(grid: &Vec<Vec<Pipe>>, start: Point) -> Vec<Point> {
+    let mut visited = HashSet::new();
+    let mut queue = Vec::new();
+    queue.push(start);
+    'outer: while let Some(point) = queue.pop() {
+        let current_pipe = grid[point.y as usize][point.x as usize];
+        for next_direction in current_pipe.get_next_directions() {
+            let next = point + next_direction;
+            if next.x < 0
+                || next.y < 0
+                || next.x >= grid[0].len() as i32
+                || next.y >= grid.len() as i32
+            {
+                continue;
+            }
+
+            let next_pipe = grid[next.y as usize][next.x as usize];
+            if next_pipe == Pipe::Start && queue.len() > 1 {
+                visited.insert(point);
+                queue.push(point);
+                break 'outer;
+            }
+            // If we've already visited this point, ignore it
+            if visited.contains(&next) {
+                continue;
+            }
+
+            if next_pipe == Pipe::Ground {
+                visited.insert(next);
+                continue;
+            }
+
+            if next_direction == Point::UP && next_pipe.has_south_connection() {
+                visited.insert(point);
+                queue.push(point);
+                queue.push(next);
+                break;
+            } else if next_direction == Point::DOWN && next_pipe.has_north_connection() {
+                visited.insert(point);
+                queue.push(point);
+                queue.push(next);
+                break;
+            } else if next_direction == Point::LEFT && next_pipe.has_east_connection() {
+                visited.insert(point);
+                queue.push(point);
+                queue.push(next);
+                break;
+            } else if next_direction == Point::RIGHT && next_pipe.has_west_connection() {
+                visited.insert(point);
+                queue.push(point);
+                queue.push(next);
+                break;
+            }
+        }
+    }
+
+    queue
+}
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum Pipe {
