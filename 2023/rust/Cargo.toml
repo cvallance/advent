@@ -1,8 +1,8 @@
 [workspace]
 resolver = "2"
 
-members = ["day-*"]
-default-members = ["day-*"]
+members = ["day-*", "helpers"]
+default-members = ["day-*", "helpers"]
 
 [workspace.dependencies]
 glam = "0.24.2"
@@ -22,6 +22,7 @@ miette = { version = "5.10", features = ["fancy"] }
 thiserror = "1.0.50"
 dhat = "0.3.2"
 criterion = { version = "0.4", features = ["html_reports"] }
+regex = "1.10.2"
 
 [profile.flamegraph]
 inherits = "release"
