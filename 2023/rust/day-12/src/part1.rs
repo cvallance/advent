@@ -88,17 +88,8 @@ pub fn process(input: &str) -> miette::Result<u64, AocError> {
     for (mut pattern, groups) in items {
         let result = Arc::clone(&result);
         let handle = thread::spawn(move || {
-            info!("Pattern: {}", pattern);
-            info!("Groups: {:?}", groups);
             let full_regex_pattern = create_full_regex_pattern(&groups);
             let full_regex = Regex::new(&full_regex_pattern).expect("Invalid regex pattern");
-
-            let mut regex_map = HashMap::new();
-            for i in 1..=groups.len() {
-                let regex_pattern = create_regex_pattern(&groups, i);
-                let regex = Regex::new(&regex_pattern).expect("Invalid regex pattern");
-                regex_map.insert(i, regex);
-            }
 
             let mut pattern_stack = Vec::new();
             pattern_stack.push(pattern.clone());
@@ -106,21 +97,20 @@ pub fn process(input: &str) -> miette::Result<u64, AocError> {
             while let Some(pattern) = pattern_stack.pop() {
                 // Find the first index of `?` in the pattern.
                 if let Some(idx) = pattern.find('?') {
-                    // Replace the first `?` with a `.`.
-                    let mut pattern = pattern.clone();
-                    pattern.replace_range(idx..idx + 1, ".");
-                    if test_pattern(&pattern, &groups, &regex_map) {
-                        // info!("\tYES");
-                        pattern_stack.push(pattern.clone());
+                    if !test_pattern(&pattern, &groups) {
+                        // Move on folks
+                        continue;
                     }
 
+                    // Replace the first `?` with a `.`.
+                    let mut dot_pattern = pattern.clone();
+                    dot_pattern.replace_range(idx..idx + 1, ".");
+                    pattern_stack.push(dot_pattern.clone());
+
                     // Replace the first `?` with a `#`.
-                    let mut pattern = pattern.clone();
-                    pattern.replace_range(idx..idx + 1, "#");
-                    if test_pattern(&pattern, &groups, &regex_map) {
-                        // info!("\tYES");
-                        pattern_stack.push(pattern.clone());
-                    }
+                    let mut hash_pattern = pattern.clone();
+                    hash_pattern.replace_range(idx..idx + 1, "#");
+                    pattern_stack.push(hash_pattern.clone());
                 } else if full_regex.is_match(&pattern) {
                     // We didn't find a ? which means we should do a full test
                     let mut result = result.lock().unwrap();
@@ -140,25 +130,41 @@ pub fn process(input: &str) -> miette::Result<u64, AocError> {
     Ok(result)
 }
 
-fn test_pattern(pattern: &String, groups: &Vec<u8>, regex_map: &HashMap<usize, Regex>) -> bool {
-    let mut pattern_to_test = if let Some((start, _end)) = pattern.split_once('?') {
-        start.trim_end_matches('#').to_string()
-    } else {
-        pattern.to_string()
-    };
+fn test_pattern(pattern: &String, groups: &Vec<u8>) -> bool {
+    let mut end_length_check = false;
+    let (mut pattern_to_test, _) = pattern.split_once('?').unwrap();
+    if pattern_to_test.ends_with('#') {
+        end_length_check = true;
+    }
 
-    let count = pattern_to_test.split('.').filter(|s| !s.is_empty()).count();
+    let things: Vec<&str> = pattern_to_test
+        .split('.')
+        .filter(|s| !s.is_empty())
+        .collect();
 
-    if count == 0 {
+    if things.len() == 0 {
         return true;
     }
 
-    if let Some(regex) = regex_map.get(&count) {
-        regex.is_match(&pattern_to_test)
-    } else {
-        false
+    if things.len() > groups.len() {
+        return false;
     }
-    // regex.is_match(&pattern_to_test)
+
+    for (idx, thing) in things.iter().enumerate() {
+        let group = groups.get(idx).unwrap();
+        if idx == things.len() - 1 && end_length_check {
+            // We are at the end and we just need to check the length
+            if thing.len() > *group as usize {
+                return false;
+            }
+        } else {
+            if thing.len() != *group as usize {
+                return false;
+            }
+        }
+    }
+
+    return true;
 }
 
 #[cfg(test)]
