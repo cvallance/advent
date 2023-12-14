@@ -1,13 +1,12 @@
 use crate::custom_error::AocError;
-use crate::shared::{create_full_regex_pattern, parse_input};
-use regex::Regex;
+use crate::shared::parse_input;
 use std::error::Error;
 use std::sync::{Arc, Mutex};
 use std::thread;
-use tracing::{error, info};
+use tracing::info;
 
 pub fn process(input: &str) -> miette::Result<u64, AocError> {
-    // let input = include_str!("../test_input.txt");
+    let input = include_str!("../test_input.txt");
     // let input = include_str!("../test_input_two.txt");
 
     let result: Arc<Mutex<u64>> = Arc::new(Mutex::new(0));
@@ -28,16 +27,13 @@ pub fn process(input: &str) -> miette::Result<u64, AocError> {
         let result = Arc::clone(&result);
         let finished = Arc::clone(&finished);
         let handle = thread::spawn(move || {
-            let full_regex_pattern = create_full_regex_pattern(&groups);
-            let full_regex = Regex::new(&full_regex_pattern).expect("Invalid regex pattern");
-
             let mut pattern_stack = Vec::new();
             pattern_stack.push(pattern.clone());
 
             while let Some(pattern) = pattern_stack.pop() {
                 // Find the first index of `?` in the pattern.
                 if let Some(idx) = pattern.find('?') {
-                    if !test_pattern(&pattern, &groups) {
+                    if !test_pattern(&pattern, &groups, false) {
                         // Move on folks
                         continue;
                     }
@@ -51,7 +47,7 @@ pub fn process(input: &str) -> miette::Result<u64, AocError> {
                     let mut hash_pattern = pattern.clone();
                     hash_pattern.replace_range(idx..idx + 1, "#");
                     pattern_stack.push(hash_pattern.clone());
-                } else if full_regex.is_match(&pattern) {
+                } else if test_pattern(&pattern, &groups, true) {
                     // We didn't find a ? which means we should do a full test
                     let mut result = result.lock().unwrap();
                     *result += 1;
@@ -77,11 +73,15 @@ pub fn process(input: &str) -> miette::Result<u64, AocError> {
     Ok(result)
 }
 
-fn test_pattern(pattern: &String, groups: &Vec<u8>) -> bool {
+fn test_pattern(pattern: &str, groups: &Vec<u8>, full_test: bool) -> bool {
     let mut end_length_check = false;
-    let (mut pattern_to_test, _) = pattern.split_once('?').unwrap();
-    if pattern_to_test.ends_with('#') {
-        end_length_check = true;
+
+    let mut pattern_to_test = pattern;
+    if !full_test {
+        (pattern_to_test, _) = pattern.split_once('?').unwrap();
+        if pattern_to_test.ends_with('#') {
+            end_length_check = true;
+        }
     }
 
     let things: Vec<&str> = pattern_to_test
@@ -94,6 +94,10 @@ fn test_pattern(pattern: &String, groups: &Vec<u8>) -> bool {
     }
 
     if things.len() > groups.len() {
+        return false;
+    }
+
+    if full_test && things.len() != groups.len() {
         return false;
     }
 

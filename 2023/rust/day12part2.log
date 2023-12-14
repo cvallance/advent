@@ -1621,3 +1621,999 @@
 [2m2023-12-14T09:20:01.808750Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 541 out of 1000
 [2m2023-12-14T09:20:01.808775Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????#?.#?.??
 [2m2023-12-14T09:20:01.808782Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	14595422
+[2m2023-12-14T09:20:02.514395Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 542 out of 1000
+[2m2023-12-14T09:20:02.514419Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???##?#?##?????
+[2m2023-12-14T09:20:02.514423Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	14763658
+[2m2023-12-14T09:20:02.755486Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 543 out of 1000
+[2m2023-12-14T09:20:02.755512Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?##?.?.????
+[2m2023-12-14T09:20:02.755518Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	14802104
+[2m2023-12-14T09:20:03.164769Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 544 out of 1000
+[2m2023-12-14T09:20:03.164793Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#?#.#??????#???#????
+[2m2023-12-14T09:20:03.164797Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	14919503
+[2m2023-12-14T09:20:03.198435Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 545 out of 1000
+[2m2023-12-14T09:20:03.198706Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#?##????.??..??
+[2m2023-12-14T09:20:03.555741Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	14994253
+[2m2023-12-14T09:20:03.555775Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 546 out of 1000
+[2m2023-12-14T09:20:03.555796Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????..???#
+[2m2023-12-14T09:20:03.555802Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	14994275
+[2m2023-12-14T09:20:04.258348Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 547 out of 1000
+[2m2023-12-14T09:20:04.258675Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.##.#..???.?????.??
+[2m2023-12-14T09:20:04.258905Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	15196916
+[2m2023-12-14T09:20:04.736590Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 548 out of 1000
+[2m2023-12-14T09:20:04.736970Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#?.?#??.#???..??
+[2m2023-12-14T09:20:04.737194Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	15293182
+[2m2023-12-14T09:20:05.710357Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 549 out of 1000
+[2m2023-12-14T09:20:05.710669Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.##????#???????#?
+[2m2023-12-14T09:20:05.710874Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	15566781
+[2m2023-12-14T09:20:06.547586Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 550 out of 1000
+[2m2023-12-14T09:20:06.547612Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.#????.???
+[2m2023-12-14T09:20:06.547618Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	15781946
+[2m2023-12-14T09:20:08.344063Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 551 out of 1000
+[2m2023-12-14T09:20:08.344381Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????.##???#??
+[2m2023-12-14T09:20:08.344565Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	16252233
+[2m2023-12-14T09:20:08.675986Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 552 out of 1000
+[2m2023-12-14T09:20:08.676067Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#???#????.?.???.#?
+[2m2023-12-14T09:20:08.676087Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	16349617
+[2m2023-12-14T09:20:09.070696Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 553 out of 1000
+[2m2023-12-14T09:20:09.070720Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#???.?#.????
+[2m2023-12-14T09:20:09.070726Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	16407684
+[2m2023-12-14T09:20:09.275791Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 554 out of 1000
+[2m2023-12-14T09:20:09.283890Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.????#?#
+[2m2023-12-14T09:20:10.011735Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	16611915
+[2m2023-12-14T09:20:10.011882Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 555 out of 1000
+[2m2023-12-14T09:20:10.011896Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????#???#???
+[2m2023-12-14T09:20:10.011902Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	16611952
+[2m2023-12-14T09:20:10.011963Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 556 out of 1000
+[2m2023-12-14T09:20:10.011973Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????.?#?#.
+[2m2023-12-14T09:20:10.011979Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	16611974
+[2m2023-12-14T09:20:10.011991Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 557 out of 1000
+[2m2023-12-14T09:20:10.012004Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.???.????.
+[2m2023-12-14T09:20:10.012010Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	16611982
+[2m2023-12-14T09:20:10.432100Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 558 out of 1000
+[2m2023-12-14T09:20:10.432122Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????#?.???..##?#?
+[2m2023-12-14T09:20:10.432126Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	16701402
+[2m2023-12-14T09:20:10.797231Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 559 out of 1000
+[2m2023-12-14T09:20:10.797256Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??##???.??
+[2m2023-12-14T09:20:10.797263Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	16807217
+[2m2023-12-14T09:20:10.839368Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 560 out of 1000
+[2m2023-12-14T09:20:10.839389Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#??.???.??.
+[2m2023-12-14T09:20:10.839392Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	16817068
+[2m2023-12-14T09:20:11.022644Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 561 out of 1000
+[2m2023-12-14T09:20:11.022965Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#???????.?
+[2m2023-12-14T09:20:11.023181Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	16878166
+[2m2023-12-14T09:20:11.735362Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 562 out of 1000
+[2m2023-12-14T09:20:11.735457Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???.????##?.
+[2m2023-12-14T09:20:11.735475Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	17049182
+[2m2023-12-14T09:20:12.455985Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 563 out of 1000
+[2m2023-12-14T09:20:12.456440Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.#??#??..??.?????
+[2m2023-12-14T09:20:12.456723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	17206275
+[2m2023-12-14T09:20:13.697131Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 564 out of 1000
+[2m2023-12-14T09:20:13.697156Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???????#?????#.?
+[2m2023-12-14T09:20:13.697159Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	17518633
+[2m2023-12-14T09:20:13.742531Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 565 out of 1000
+[2m2023-12-14T09:20:13.742546Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?#???##??????????
+[2m2023-12-14T09:20:13.742550Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	17536145
+[2m2023-12-14T09:20:14.271928Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 566 out of 1000
+[2m2023-12-14T09:20:14.271954Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#..??#??#???????
+[2m2023-12-14T09:20:14.271961Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	17682927
+[2m2023-12-14T09:20:15.098539Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 567 out of 1000
+[2m2023-12-14T09:20:15.098626Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#?.???#.??.?
+[2m2023-12-14T09:20:15.098650Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	17877639
+[2m2023-12-14T09:20:15.211790Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 568 out of 1000
+[2m2023-12-14T09:20:15.212103Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.????.????#?#?#???
+[2m2023-12-14T09:20:15.212368Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	17911947
+[2m2023-12-14T09:20:15.554273Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 569 out of 1000
+[2m2023-12-14T09:20:15.567840Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.?????????#??.
+[2m2023-12-14T09:20:15.855733Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	18031158
+[2m2023-12-14T09:20:15.863881Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 570 out of 1000
+[2m2023-12-14T09:20:15.863899Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#??????#???#???##.??
+[2m2023-12-14T09:20:15.863903Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	18033629
+[2m2023-12-14T09:20:17.582553Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 571 out of 1000
+[2m2023-12-14T09:20:17.582577Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#??????#?.
+[2m2023-12-14T09:20:17.582581Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	18404122
+[2m2023-12-14T09:20:17.915264Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 572 out of 1000
+[2m2023-12-14T09:20:17.915362Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#????.????
+[2m2023-12-14T09:20:17.915382Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	18462318
+[2m2023-12-14T09:20:18.034237Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 573 out of 1000
+[2m2023-12-14T09:20:18.034518Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.??.?..????
+[2m2023-12-14T09:20:18.034725Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	18499222
+[2m2023-12-14T09:20:18.441162Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 574 out of 1000
+[2m2023-12-14T09:20:18.483727Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#????.???????#?
+[2m2023-12-14T09:20:18.484035Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	18621015
+[2m2023-12-14T09:20:18.695269Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 575 out of 1000
+[2m2023-12-14T09:20:18.695656Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?#?##.??????
+[2m2023-12-14T09:20:18.695886Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	18687298
+[2m2023-12-14T09:20:19.004838Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 576 out of 1000
+[2m2023-12-14T09:20:19.017014Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#?#.##????.??
+[2m2023-12-14T09:20:19.017261Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	18776035
+[2m2023-12-14T09:20:19.919890Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 577 out of 1000
+[2m2023-12-14T09:20:19.919970Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????#????#???
+[2m2023-12-14T09:20:19.919983Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	18964062
+[2m2023-12-14T09:20:20.740178Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 578 out of 1000
+[2m2023-12-14T09:20:20.740202Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	##??#????????????.
+[2m2023-12-14T09:20:20.740207Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	19136797
+[2m2023-12-14T09:20:20.985145Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 579 out of 1000
+[2m2023-12-14T09:20:20.985237Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?##?.??.#?.#?????.
+[2m2023-12-14T09:20:20.985267Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	19213835
+[2m2023-12-14T09:20:22.715889Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 580 out of 1000
+[2m2023-12-14T09:20:22.715944Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???.??.???#?##??#?.?
+[2m2023-12-14T09:20:22.715956Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	19629515
+[2m2023-12-14T09:20:24.072745Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 581 out of 1000
+[2m2023-12-14T09:20:24.073219Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????????##?
+[2m2023-12-14T09:20:24.073226Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	19954665
+[2m2023-12-14T09:20:24.330730Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 582 out of 1000
+[2m2023-12-14T09:20:24.330820Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	##???.???#.???
+[2m2023-12-14T09:20:24.330842Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	20033399
+[2m2023-12-14T09:20:24.832438Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 583 out of 1000
+[2m2023-12-14T09:20:24.832463Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?####???.????
+[2m2023-12-14T09:20:24.832470Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	20166286
+[2m2023-12-14T09:20:25.922233Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 584 out of 1000
+[2m2023-12-14T09:20:25.922300Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.???#????#??????.
+[2m2023-12-14T09:20:25.922328Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	20466557
+[2m2023-12-14T09:20:25.981359Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 585 out of 1000
+[2m2023-12-14T09:20:25.981435Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#???#??
+[2m2023-12-14T09:20:25.981456Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	20484523
+[2m2023-12-14T09:20:26.003475Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 586 out of 1000
+[2m2023-12-14T09:20:26.003714Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???##??????###??.??.
+[2m2023-12-14T09:20:26.003923Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	20491389
+[2m2023-12-14T09:20:27.099520Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 587 out of 1000
+[2m2023-12-14T09:20:27.191727Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#??.????
+[2m2023-12-14T09:20:27.192034Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	20793946
+[2m2023-12-14T09:20:27.918531Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 588 out of 1000
+[2m2023-12-14T09:20:27.918584Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???????????#??#.
+[2m2023-12-14T09:20:27.918595Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	20963707
+[2m2023-12-14T09:20:29.036806Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 589 out of 1000
+[2m2023-12-14T09:20:29.036832Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????#?##?
+[2m2023-12-14T09:20:29.036838Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	21258740
+[2m2023-12-14T09:20:32.002534Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 590 out of 1000
+[2m2023-12-14T09:20:32.002558Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.#?.????.
+[2m2023-12-14T09:20:32.002563Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	21978280
+[2m2023-12-14T09:20:33.456320Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 591 out of 1000
+[2m2023-12-14T09:20:33.456653Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#????.??.?
+[2m2023-12-14T09:20:33.456667Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	22373481
+[2m2023-12-14T09:20:34.797468Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 592 out of 1000
+[2m2023-12-14T09:20:34.797495Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????##?#?????
+[2m2023-12-14T09:20:34.797501Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	22659456
+[2m2023-12-14T09:20:35.868186Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 593 out of 1000
+[2m2023-12-14T09:20:35.873911Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.?#????????
+[2m2023-12-14T09:20:35.874120Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	22925635
+[2m2023-12-14T09:20:37.688179Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 594 out of 1000
+[2m2023-12-14T09:20:37.688539Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#??#?#??#?.????
+[2m2023-12-14T09:20:37.688765Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	23398188
+[2m2023-12-14T09:20:40.347670Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 595 out of 1000
+[2m2023-12-14T09:20:40.348098Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????##?#????#??????
+[2m2023-12-14T09:20:40.348325Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	24075777
+[2m2023-12-14T09:20:41.873295Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 596 out of 1000
+[2m2023-12-14T09:20:41.873392Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.??#.#???#????#?.?
+[2m2023-12-14T09:20:42.227936Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	24513582
+[2m2023-12-14T09:20:42.834496Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 597 out of 1000
+[2m2023-12-14T09:20:42.834523Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???##???#???????.
+[2m2023-12-14T09:20:42.834530Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	24641430
+[2m2023-12-14T09:20:42.889714Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 598 out of 1000
+[2m2023-12-14T09:20:42.889736Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????????###?..
+[2m2023-12-14T09:20:42.889740Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	24647744
+[2m2023-12-14T09:20:44.730808Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 599 out of 1000
+[2m2023-12-14T09:20:44.730908Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????.???#????#??.?.
+[2m2023-12-14T09:20:44.730929Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	25096921
+[2m2023-12-14T09:20:45.536874Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 600 out of 1000
+[2m2023-12-14T09:20:45.549155Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????#??##???#??
+[2m2023-12-14T09:20:45.549217Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	25294821
+[2m2023-12-14T09:20:46.312781Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 601 out of 1000
+[2m2023-12-14T09:20:46.312917Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#??????.????#??
+[2m2023-12-14T09:20:46.312951Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	25503289
+[2m2023-12-14T09:20:48.586194Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 602 out of 1000
+[2m2023-12-14T09:20:48.586364Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.#???????
+[2m2023-12-14T09:20:48.586411Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	26131746
+[2m2023-12-14T09:20:51.304297Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 603 out of 1000
+[2m2023-12-14T09:20:51.304414Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#??.??????
+[2m2023-12-14T09:20:51.304451Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	26786179
+[2m2023-12-14T09:20:53.764001Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 604 out of 1000
+[2m2023-12-14T09:20:53.764101Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#??????#??
+[2m2023-12-14T09:20:53.764135Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	27386894
+[2m2023-12-14T09:20:54.099090Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 605 out of 1000
+[2m2023-12-14T09:20:54.127723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.?????###???#
+[2m2023-12-14T09:20:54.135721Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	27490374
+[2m2023-12-14T09:20:55.633036Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 606 out of 1000
+[2m2023-12-14T09:20:55.633060Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#??.????.??#..#????
+[2m2023-12-14T09:20:55.883732Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	27942425
+[2m2023-12-14T09:20:56.320800Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 607 out of 1000
+[2m2023-12-14T09:20:56.320950Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#?.?????
+[2m2023-12-14T09:20:56.320996Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	28031932
+[2m2023-12-14T09:20:57.674879Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 608 out of 1000
+[2m2023-12-14T09:20:57.674943Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#?.#?????##??#?
+[2m2023-12-14T09:20:57.674963Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	28354654
+[2m2023-12-14T09:21:00.675309Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 609 out of 1000
+[2m2023-12-14T09:21:00.683723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#??.?#??????
+[2m2023-12-14T09:21:00.683761Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	29111638
+[2m2023-12-14T09:21:00.808194Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 610 out of 1000
+[2m2023-12-14T09:21:00.808277Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.#.???#???#.?
+[2m2023-12-14T09:21:00.808310Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	29145951
+[2m2023-12-14T09:21:03.205187Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 611 out of 1000
+[2m2023-12-14T09:21:03.205238Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#??????????#?
+[2m2023-12-14T09:21:03.205250Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	29639698
+[2m2023-12-14T09:21:03.909211Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 612 out of 1000
+[2m2023-12-14T09:21:03.909270Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#.?.?????##???.????
+[2m2023-12-14T09:21:03.909291Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	29834511
+[2m2023-12-14T09:21:08.049029Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 613 out of 1000
+[2m2023-12-14T09:21:08.067724Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????.#?#??#?...#?
+[2m2023-12-14T09:21:08.067961Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	30884245
+[2m2023-12-14T09:21:12.171593Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 614 out of 1000
+[2m2023-12-14T09:21:12.203726Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.???.#??#?#????
+[2m2023-12-14T09:21:12.203932Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	31874689
+[2m2023-12-14T09:21:12.428494Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 615 out of 1000
+[2m2023-12-14T09:21:12.428575Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.???##????#?#?.#?
+[2m2023-12-14T09:21:12.428595Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	31922864
+[2m2023-12-14T09:21:13.826754Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 616 out of 1000
+[2m2023-12-14T09:21:13.826779Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?????#?#??
+[2m2023-12-14T09:21:13.826783Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	32267027
+[2m2023-12-14T09:21:14.346198Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 617 out of 1000
+[2m2023-12-14T09:21:14.346286Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??##.?.???.?.
+[2m2023-12-14T09:21:14.346299Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	32401712
+[2m2023-12-14T09:21:15.293629Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 618 out of 1000
+[2m2023-12-14T09:21:15.303721Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.#?.?????.?#
+[2m2023-12-14T09:21:15.303951Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	32641771
+[2m2023-12-14T09:21:16.290816Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 619 out of 1000
+[2m2023-12-14T09:21:16.290843Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#????.??##????
+[2m2023-12-14T09:21:16.290850Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	32882305
+[2m2023-12-14T09:21:21.536474Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 620 out of 1000
+[2m2023-12-14T09:21:21.551726Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#.?#?#??#.??????.?
+[2m2023-12-14T09:21:21.551749Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	34071002
+[2m2023-12-14T09:21:21.775744Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 621 out of 1000
+[2m2023-12-14T09:21:21.775772Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.#..?#???????
+[2m2023-12-14T09:21:21.775778Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	34139586
+[2m2023-12-14T09:21:21.779730Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 622 out of 1000
+[2m2023-12-14T09:21:21.779772Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#???.??.????.
+[2m2023-12-14T09:21:21.779784Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	34140837
+[2m2023-12-14T09:21:21.858533Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 623 out of 1000
+[2m2023-12-14T09:21:21.858559Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.#????#??
+[2m2023-12-14T09:21:21.858566Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	34151970
+[2m2023-12-14T09:21:23.761586Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 624 out of 1000
+[2m2023-12-14T09:21:23.761613Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#?..?.???#?#???
+[2m2023-12-14T09:21:23.761620Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	34595789
+[2m2023-12-14T09:21:24.099151Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 625 out of 1000
+[2m2023-12-14T09:21:24.099239Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?#?#.#?.??.????#?.
+[2m2023-12-14T09:21:24.495731Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	34756584
+[2m2023-12-14T09:21:24.495762Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 626 out of 1000
+[2m2023-12-14T09:21:24.495780Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#??.?#????#???#?
+[2m2023-12-14T09:21:24.495784Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	34756590
+[2m2023-12-14T09:21:24.745538Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 627 out of 1000
+[2m2023-12-14T09:21:24.787726Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#??..#?.???.#??
+[2m2023-12-14T09:21:24.824050Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	34845978
+[2m2023-12-14T09:21:26.872962Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 628 out of 1000
+[2m2023-12-14T09:21:26.943736Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???????##?#?##???#
+[2m2023-12-14T09:21:26.943814Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	35368088
+[2m2023-12-14T09:21:28.033712Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 629 out of 1000
+[2m2023-12-14T09:21:28.033828Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????#??#.?..?
+[2m2023-12-14T09:21:28.033854Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	35589926
+[2m2023-12-14T09:21:28.392016Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 630 out of 1000
+[2m2023-12-14T09:21:28.421200Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.??#?????
+[2m2023-12-14T09:21:28.421579Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	35652831
+[2m2023-12-14T09:21:28.828233Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 631 out of 1000
+[2m2023-12-14T09:21:28.828330Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#?????###???##.#?
+[2m2023-12-14T09:21:28.828352Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	35745509
+[2m2023-12-14T09:21:29.520799Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 632 out of 1000
+[2m2023-12-14T09:21:29.520857Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???..#.?##?.?#?????
+[2m2023-12-14T09:21:29.520869Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	35937980
+[2m2023-12-14T09:21:29.916687Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 633 out of 1000
+[2m2023-12-14T09:21:29.921340Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	##?##????????..
+[2m2023-12-14T09:21:29.921573Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	36030521
+[2m2023-12-14T09:21:30.018118Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 634 out of 1000
+[2m2023-12-14T09:21:30.035727Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#?????.???????#.#
+[2m2023-12-14T09:21:30.035765Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	36047076
+[2m2023-12-14T09:21:32.300751Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 635 out of 1000
+[2m2023-12-14T09:21:32.300776Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.#??.???#?????
+[2m2023-12-14T09:21:32.300783Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	36609365
+[2m2023-12-14T09:21:32.325043Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 636 out of 1000
+[2m2023-12-14T09:21:32.325065Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????#?#..?
+[2m2023-12-14T09:21:32.325069Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	36613725
+[2m2023-12-14T09:21:33.232532Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 637 out of 1000
+[2m2023-12-14T09:21:33.232585Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#.???#??
+[2m2023-12-14T09:21:33.232597Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	36866118
+[2m2023-12-14T09:21:34.245383Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 638 out of 1000
+[2m2023-12-14T09:21:34.279726Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#??#??.???????
+[2m2023-12-14T09:21:34.279983Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	37123959
+[2m2023-12-14T09:21:37.721041Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 639 out of 1000
+[2m2023-12-14T09:21:37.727723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???.????.#?.?
+[2m2023-12-14T09:21:37.727737Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	37951940
+[2m2023-12-14T09:21:38.088482Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 640 out of 1000
+[2m2023-12-14T09:21:38.088828Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#???.?.?.
+[2m2023-12-14T09:21:38.089056Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	38053490
+[2m2023-12-14T09:21:38.961689Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 641 out of 1000
+[2m2023-12-14T09:21:38.961768Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????.????
+[2m2023-12-14T09:21:38.961781Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	38241867
+[2m2023-12-14T09:21:39.478786Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 642 out of 1000
+[2m2023-12-14T09:21:39.490228Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????.?.??##
+[2m2023-12-14T09:21:39.490455Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	38357261
+[2m2023-12-14T09:21:41.550957Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 643 out of 1000
+[2m2023-12-14T09:21:41.551354Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????#???#?.??#?#???
+[2m2023-12-14T09:21:41.551584Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	38920607
+[2m2023-12-14T09:21:44.219531Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 644 out of 1000
+[2m2023-12-14T09:21:44.219951Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.??.#????#???#.?
+[2m2023-12-14T09:21:44.220179Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	39567887
+[2m2023-12-14T09:21:45.419427Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 645 out of 1000
+[2m2023-12-14T09:21:45.419791Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????..??.??
+[2m2023-12-14T09:21:45.851739Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	39949045
+[2m2023-12-14T09:21:45.982040Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 646 out of 1000
+[2m2023-12-14T09:21:45.982123Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?##.??????.?#.???#??
+[2m2023-12-14T09:21:45.982146Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	39967336
+[2m2023-12-14T09:21:53.630283Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 647 out of 1000
+[2m2023-12-14T09:21:53.630310Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#??????##????.??
+[2m2023-12-14T09:21:53.630316Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	41922868
+[2m2023-12-14T09:21:56.662925Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 648 out of 1000
+[2m2023-12-14T09:21:56.662948Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#??###?#????????.?.
+[2m2023-12-14T09:21:56.662953Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	42715050
+[2m2023-12-14T09:21:57.402569Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 649 out of 1000
+[2m2023-12-14T09:21:57.415729Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.???.????#?
+[2m2023-12-14T09:21:57.416034Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	42880633
+[2m2023-12-14T09:22:05.818527Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 650 out of 1000
+[2m2023-12-14T09:22:05.839728Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.????#??.?
+[2m2023-12-14T09:22:05.840000Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	45013984
+[2m2023-12-14T09:22:07.934033Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 651 out of 1000
+[2m2023-12-14T09:22:07.934058Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.???.?.??.
+[2m2023-12-14T09:22:07.934061Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	45541254
+[2m2023-12-14T09:22:09.808426Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 652 out of 1000
+[2m2023-12-14T09:22:09.808513Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	##?.#????.????
+[2m2023-12-14T09:22:09.808525Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	45978855
+[2m2023-12-14T09:22:09.835338Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 653 out of 1000
+[2m2023-12-14T09:22:09.859727Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#?.?.?.
+[2m2023-12-14T09:22:09.859975Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	45989594
+[2m2023-12-14T09:22:11.122229Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 654 out of 1000
+[2m2023-12-14T09:22:11.127725Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????..??#?
+[2m2023-12-14T09:22:11.359734Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	46373664
+[2m2023-12-14T09:22:15.509791Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 655 out of 1000
+[2m2023-12-14T09:22:15.519726Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.???.?#??.??.#??
+[2m2023-12-14T09:22:15.520121Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	47388667
+[2m2023-12-14T09:22:19.591202Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 656 out of 1000
+[2m2023-12-14T09:22:19.591536Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????#?##??????
+[2m2023-12-14T09:22:19.591767Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	48347627
+[2m2023-12-14T09:22:21.871636Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 657 out of 1000
+[2m2023-12-14T09:22:21.871697Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#??#?#?.????
+[2m2023-12-14T09:22:21.871719Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	48837776
+[2m2023-12-14T09:22:22.240658Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 658 out of 1000
+[2m2023-12-14T09:22:22.241026Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#?.???.??#
+[2m2023-12-14T09:22:22.241255Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	48902010
+[2m2023-12-14T09:22:22.871876Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 659 out of 1000
+[2m2023-12-14T09:22:22.871957Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.??#???..???
+[2m2023-12-14T09:22:22.871969Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	49018369
+[2m2023-12-14T09:22:23.183570Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 660 out of 1000
+[2m2023-12-14T09:22:23.183921Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?#???.#?????
+[2m2023-12-14T09:22:23.184145Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	49099105
+[2m2023-12-14T09:22:29.993894Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 661 out of 1000
+[2m2023-12-14T09:22:29.993992Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?###??#??.????.?
+[2m2023-12-14T09:22:29.994012Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	50670910
+[2m2023-12-14T09:22:30.035472Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 662 out of 1000
+[2m2023-12-14T09:22:30.055724Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????#????#??????
+[2m2023-12-14T09:22:30.055979Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	50686614
+[2m2023-12-14T09:22:30.254484Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 663 out of 1000
+[2m2023-12-14T09:22:30.254562Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???????#.?##?
+[2m2023-12-14T09:22:30.254590Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	50745868
+[2m2023-12-14T09:22:40.304085Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 664 out of 1000
+[2m2023-12-14T09:22:40.304177Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	..??#.?????????????
+[2m2023-12-14T09:22:40.304201Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	53053680
+[2m2023-12-14T09:22:46.087977Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 665 out of 1000
+[2m2023-12-14T09:22:46.088035Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#???#?#??????
+[2m2023-12-14T09:22:46.088047Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	54472050
+[2m2023-12-14T09:22:49.660947Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 666 out of 1000
+[2m2023-12-14T09:22:49.667725Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#?.??#?.##????.??
+[2m2023-12-14T09:22:49.899732Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	55274298
+[2m2023-12-14T09:23:19.511341Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 667 out of 1000
+[2m2023-12-14T09:23:19.511409Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#???#?.?.#?#?#?#???
+[2m2023-12-14T09:23:19.511445Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	62120348
+[2m2023-12-14T09:23:24.475365Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 668 out of 1000
+[2m2023-12-14T09:23:24.475392Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??##??#??.????????#?
+[2m2023-12-14T09:23:24.639732Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	63220391
+[2m2023-12-14T09:23:30.507529Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 669 out of 1000
+[2m2023-12-14T09:23:30.507594Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#??????..???
+[2m2023-12-14T09:23:30.507610Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	64622358
+[2m2023-12-14T09:23:31.354673Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 670 out of 1000
+[2m2023-12-14T09:23:31.355045Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????#.?#?????#
+[2m2023-12-14T09:23:31.355270Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	64844428
+[2m2023-12-14T09:23:35.060360Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 671 out of 1000
+[2m2023-12-14T09:23:35.067722Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???.#???#?.??##???
+[2m2023-12-14T09:23:35.067976Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	65673446
+[2m2023-12-14T09:23:36.432788Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 672 out of 1000
+[2m2023-12-14T09:23:36.433126Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???.??####..???
+[2m2023-12-14T09:23:36.433352Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	65984580
+[2m2023-12-14T09:23:39.252364Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 673 out of 1000
+[2m2023-12-14T09:23:39.252464Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.#?????#??#??.????
+[2m2023-12-14T09:23:39.252485Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	66667298
+[2m2023-12-14T09:23:49.047136Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 674 out of 1000
+[2m2023-12-14T09:23:49.047161Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#?#??.?.????#??
+[2m2023-12-14T09:23:49.423731Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	69101856
+[2m2023-12-14T09:23:50.607065Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 675 out of 1000
+[2m2023-12-14T09:23:50.609627Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.???##??##???..??#.
+[2m2023-12-14T09:23:51.043734Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	69399096
+[2m2023-12-14T09:23:51.043766Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 676 out of 1000
+[2m2023-12-14T09:23:51.043786Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#????####??#??????
+[2m2023-12-14T09:23:51.043791Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	69399102
+[2m2023-12-14T09:23:55.508026Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 677 out of 1000
+[2m2023-12-14T09:23:55.508380Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.??#?.?.??
+[2m2023-12-14T09:23:55.508608Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	70473911
+[2m2023-12-14T09:23:59.134896Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 678 out of 1000
+[2m2023-12-14T09:23:59.175727Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???????##???.??
+[2m2023-12-14T09:23:59.175974Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	71292394
+[2m2023-12-14T09:23:59.753458Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 679 out of 1000
+[2m2023-12-14T09:23:59.753510Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#?????.?
+[2m2023-12-14T09:23:59.753532Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	71455039
+[2m2023-12-14T09:24:01.241083Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 680 out of 1000
+[2m2023-12-14T09:24:01.255777Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	##????.??????.
+[2m2023-12-14T09:24:01.267723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	71768590
+[2m2023-12-14T09:24:01.550687Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 681 out of 1000
+[2m2023-12-14T09:24:01.550736Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????##?.?
+[2m2023-12-14T09:24:01.550759Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	71846904
+[2m2023-12-14T09:24:09.079497Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 682 out of 1000
+[2m2023-12-14T09:24:09.079608Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.????.#.?????#??????
+[2m2023-12-14T09:24:09.079641Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	73455438
+[2m2023-12-14T09:24:11.190324Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 683 out of 1000
+[2m2023-12-14T09:24:11.190742Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#?###?????.??.
+[2m2023-12-14T09:24:11.190966Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	73910571
+[2m2023-12-14T09:24:13.029737Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 684 out of 1000
+[2m2023-12-14T09:24:13.029831Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#??#???.?#???
+[2m2023-12-14T09:24:13.029853Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	74367342
+[2m2023-12-14T09:24:24.933265Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 685 out of 1000
+[2m2023-12-14T09:24:24.961781Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.??????#.#?????
+[2m2023-12-14T09:24:24.962021Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	76985538
+[2m2023-12-14T09:24:27.966559Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 686 out of 1000
+[2m2023-12-14T09:24:27.966957Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.#?.??#????.?#..?
+[2m2023-12-14T09:24:27.967187Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	77686935
+[2m2023-12-14T09:24:28.408722Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 687 out of 1000
+[2m2023-12-14T09:24:28.415724Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#?.??#?##???????
+[2m2023-12-14T09:24:28.415747Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	77807630
+[2m2023-12-14T09:24:29.641458Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 688 out of 1000
+[2m2023-12-14T09:24:29.641483Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???..?.??###??##???
+[2m2023-12-14T09:24:29.641489Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	78088603
+[2m2023-12-14T09:24:40.010960Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 689 out of 1000
+[2m2023-12-14T09:24:40.011012Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????##?#?#???
+[2m2023-12-14T09:24:40.011024Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	80591128
+[2m2023-12-14T09:24:41.560101Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 690 out of 1000
+[2m2023-12-14T09:24:41.571997Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?????#??.??
+[2m2023-12-14T09:24:41.572229Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	80969154
+[2m2023-12-14T09:24:42.326465Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 691 out of 1000
+[2m2023-12-14T09:24:42.326523Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.???#??#???????
+[2m2023-12-14T09:24:42.326553Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	81123302
+[2m2023-12-14T09:25:05.549263Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 692 out of 1000
+[2m2023-12-14T09:25:05.549633Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????.#????#.#??
+[2m2023-12-14T09:25:05.549861Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	86440071
+[2m2023-12-14T09:25:11.468710Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 693 out of 1000
+[2m2023-12-14T09:25:11.468735Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???.??##??#.???#?
+[2m2023-12-14T09:25:11.468741Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	87819513
+[2m2023-12-14T09:25:16.314066Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 694 out of 1000
+[2m2023-12-14T09:25:16.314095Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????.#?..#???.#.
+[2m2023-12-14T09:25:16.314103Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	88970041
+[2m2023-12-14T09:25:29.059719Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 695 out of 1000
+[2m2023-12-14T09:25:29.060101Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.?????#?#?.??
+[2m2023-12-14T09:25:29.060327Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	91839811
+[2m2023-12-14T09:25:31.838363Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 696 out of 1000
+[2m2023-12-14T09:25:31.845648Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#?????????.??????
+[2m2023-12-14T09:25:31.845926Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	92385889
+[2m2023-12-14T09:25:37.601928Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 697 out of 1000
+[2m2023-12-14T09:25:37.601991Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???##??###.???.????
+[2m2023-12-14T09:25:37.602011Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	93740665
+[2m2023-12-14T09:25:42.040655Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 698 out of 1000
+[2m2023-12-14T09:25:42.040720Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#????????#??..
+[2m2023-12-14T09:25:42.040740Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	94682987
+[2m2023-12-14T09:25:46.937678Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 699 out of 1000
+[2m2023-12-14T09:25:46.937702Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#??????.
+[2m2023-12-14T09:25:46.937706Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	95797558
+[2m2023-12-14T09:25:50.613394Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 700 out of 1000
+[2m2023-12-14T09:25:50.624949Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?#?????.???#...??
+[2m2023-12-14T09:25:50.625199Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	96610954
+[2m2023-12-14T09:25:53.945298Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 701 out of 1000
+[2m2023-12-14T09:25:53.945352Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?##?.???????
+[2m2023-12-14T09:25:53.945363Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	97355910
+[2m2023-12-14T09:25:55.514403Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 702 out of 1000
+[2m2023-12-14T09:25:55.514429Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#??????????#?##??
+[2m2023-12-14T09:25:55.514435Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	97714876
+[2m2023-12-14T09:25:58.398731Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 703 out of 1000
+[2m2023-12-14T09:25:58.399135Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.???.???????#?
+[2m2023-12-14T09:25:58.399360Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	98288910
+[2m2023-12-14T09:26:09.868494Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 704 out of 1000
+[2m2023-12-14T09:26:09.868890Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#??????.?#?
+[2m2023-12-14T09:26:09.943738Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	100880737
+[2m2023-12-14T09:26:41.462959Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 705 out of 1000
+[2m2023-12-14T09:26:41.462982Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#???##?????
+[2m2023-12-14T09:26:41.462987Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	108107157
+[2m2023-12-14T09:26:50.259842Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 706 out of 1000
+[2m2023-12-14T09:26:50.259865Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#????#??#??????.?..
+[2m2023-12-14T09:26:50.259870Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	110020588
+[2m2023-12-14T09:26:52.176822Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 707 out of 1000
+[2m2023-12-14T09:26:52.183724Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.????#??????
+[2m2023-12-14T09:26:52.184057Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	110395063
+[2m2023-12-14T09:26:52.605294Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 708 out of 1000
+[2m2023-12-14T09:26:52.605354Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#??.?????
+[2m2023-12-14T09:26:52.605370Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	110461247
+[2m2023-12-14T09:26:55.030456Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 709 out of 1000
+[2m2023-12-14T09:26:55.047726Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????????.
+[2m2023-12-14T09:26:55.047751Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	111002136
+[2m2023-12-14T09:26:56.938117Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 710 out of 1000
+[2m2023-12-14T09:26:56.938515Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#???????.???#???
+[2m2023-12-14T09:26:56.938742Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	111450656
+[2m2023-12-14T09:27:15.104815Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 711 out of 1000
+[2m2023-12-14T09:27:15.104841Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#???#????#.??
+[2m2023-12-14T09:27:15.104847Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	115420444
+[2m2023-12-14T09:27:35.958217Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 712 out of 1000
+[2m2023-12-14T09:27:35.958556Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.???#????##??
+[2m2023-12-14T09:27:36.251200Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	120126926
+[2m2023-12-14T09:27:40.209133Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 713 out of 1000
+[2m2023-12-14T09:27:40.209653Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??..??.?????#.??
+[2m2023-12-14T09:27:40.454478Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	121006919
+[2m2023-12-14T09:27:40.454501Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 714 out of 1000
+[2m2023-12-14T09:27:40.454512Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???????.#.#??.
+[2m2023-12-14T09:27:40.454515Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	121006923
+[2m2023-12-14T09:28:06.644401Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 715 out of 1000
+[2m2023-12-14T09:28:06.644425Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.??##??#????.#?#?
+[2m2023-12-14T09:28:06.644429Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	126806078
+[2m2023-12-14T09:28:09.963788Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 716 out of 1000
+[2m2023-12-14T09:28:09.963873Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.??.???#????.
+[2m2023-12-14T09:28:09.963885Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	127570063
+[2m2023-12-14T09:28:32.326172Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 717 out of 1000
+[2m2023-12-14T09:28:32.326528Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???.?????#??#??
+[2m2023-12-14T09:28:32.395725Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	132572811
+[2m2023-12-14T09:28:34.596743Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 718 out of 1000
+[2m2023-12-14T09:28:34.596801Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????#????.#?#???###
+[2m2023-12-14T09:28:34.596830Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	133025606
+[2m2023-12-14T09:28:42.636775Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 719 out of 1000
+[2m2023-12-14T09:28:42.637127Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????#????
+[2m2023-12-14T09:28:42.637356Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	134820357
+[2m2023-12-14T09:28:59.065202Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 720 out of 1000
+[2m2023-12-14T09:28:59.065251Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#??????????
+[2m2023-12-14T09:28:59.065263Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	138427851
+[2m2023-12-14T09:29:02.107839Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 721 out of 1000
+[2m2023-12-14T09:29:02.147790Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????????.
+[2m2023-12-14T09:29:02.203727Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	139084558
+[2m2023-12-14T09:29:14.934620Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 722 out of 1000
+[2m2023-12-14T09:29:14.935002Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????????.???
+[2m2023-12-14T09:29:14.935227Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	141877939
+[2m2023-12-14T09:29:22.537218Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 723 out of 1000
+[2m2023-12-14T09:29:22.538060Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#???????
+[2m2023-12-14T09:29:22.538291Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	143578741
+[2m2023-12-14T09:29:27.405273Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 724 out of 1000
+[2m2023-12-14T09:29:27.405631Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.?##???#?????#?
+[2m2023-12-14T09:29:27.405859Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	144642088
+[2m2023-12-14T09:29:35.967308Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 725 out of 1000
+[2m2023-12-14T09:29:35.999722Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???.??.##???
+[2m2023-12-14T09:29:35.999738Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	146431801
+[2m2023-12-14T09:30:10.716264Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 726 out of 1000
+[2m2023-12-14T09:30:10.716325Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.?????.??###??#????
+[2m2023-12-14T09:30:10.716346Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	154224829
+[2m2023-12-14T09:30:32.277396Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 727 out of 1000
+[2m2023-12-14T09:30:32.278329Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.??#???#..???
+[2m2023-12-14T09:30:32.278343Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	159049308
+[2m2023-12-14T09:30:42.311790Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 728 out of 1000
+[2m2023-12-14T09:30:42.311846Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#??##???.???#???
+[2m2023-12-14T09:30:42.311858Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	161400607
+[2m2023-12-14T09:30:43.446894Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 729 out of 1000
+[2m2023-12-14T09:30:43.446916Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#???#.???.???
+[2m2023-12-14T09:30:43.763734Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	161719694
+[2m2023-12-14T09:30:44.707668Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 730 out of 1000
+[2m2023-12-14T09:30:44.731724Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??..??#?????
+[2m2023-12-14T09:30:44.731747Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	161932459
+[2m2023-12-14T09:30:49.408512Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 731 out of 1000
+[2m2023-12-14T09:30:49.463728Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#.????#???????
+[2m2023-12-14T09:30:49.464049Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	162985809
+[2m2023-12-14T09:30:57.103618Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 732 out of 1000
+[2m2023-12-14T09:30:57.103642Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?..##.???????#??
+[2m2023-12-14T09:30:57.103646Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	164640198
+[2m2023-12-14T09:31:28.526052Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 733 out of 1000
+[2m2023-12-14T09:31:28.526143Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#?.?#?.???
+[2m2023-12-14T09:31:28.526167Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	171504330
+[2m2023-12-14T09:31:32.970784Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 734 out of 1000
+[2m2023-12-14T09:31:32.983721Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????#???#????.
+[2m2023-12-14T09:31:32.983735Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	172428446
+[2m2023-12-14T09:32:53.605172Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 735 out of 1000
+[2m2023-12-14T09:32:53.605272Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.??????????.??..
+[2m2023-12-14T09:32:53.605293Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	189749031
+[2m2023-12-14T09:32:53.932981Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 736 out of 1000
+[2m2023-12-14T09:32:53.935994Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?..?.????
+[2m2023-12-14T09:32:54.124620Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	189868890
+[2m2023-12-14T09:33:13.121515Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 737 out of 1000
+[2m2023-12-14T09:33:13.159729Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#.????????
+[2m2023-12-14T09:33:13.159965Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	194176822
+[2m2023-12-14T09:33:13.999545Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 738 out of 1000
+[2m2023-12-14T09:33:14.029870Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?.#?#?????????
+[2m2023-12-14T09:33:14.030126Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	194372185
+[2m2023-12-14T09:33:16.414351Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 739 out of 1000
+[2m2023-12-14T09:33:16.414437Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????..??#???##
+[2m2023-12-14T09:33:16.414460Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	194834844
+[2m2023-12-14T09:33:52.944478Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 740 out of 1000
+[2m2023-12-14T09:33:52.944891Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#?#?#?.?????#???
+[2m2023-12-14T09:33:52.945118Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	202755253
+[2m2023-12-14T09:34:07.006732Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 741 out of 1000
+[2m2023-12-14T09:34:07.006819Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#.#??.?#????#??????
+[2m2023-12-14T09:34:07.006843Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	205821505
+[2m2023-12-14T09:34:34.896196Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 742 out of 1000
+[2m2023-12-14T09:34:34.896252Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.?#????#????
+[2m2023-12-14T09:34:34.896264Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	211649986
+[2m2023-12-14T09:34:53.769963Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 743 out of 1000
+[2m2023-12-14T09:34:53.770015Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????#?.??
+[2m2023-12-14T09:34:53.770027Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	215707499
+[2m2023-12-14T09:34:53.926634Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 744 out of 1000
+[2m2023-12-14T09:34:53.926682Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?#.?.?????#????????
+[2m2023-12-14T09:34:53.926701Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	215748715
+[2m2023-12-14T09:35:01.216830Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 745 out of 1000
+[2m2023-12-14T09:35:01.216888Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#?????#??????
+[2m2023-12-14T09:35:01.216908Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	217370963
+[2m2023-12-14T09:35:18.152316Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 746 out of 1000
+[2m2023-12-14T09:35:18.156367Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#?.???????.#.
+[2m2023-12-14T09:35:18.156624Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	220949779
+[2m2023-12-14T09:35:20.532322Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 747 out of 1000
+[2m2023-12-14T09:35:20.532427Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???????#??.??
+[2m2023-12-14T09:35:20.532459Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	221450015
+[2m2023-12-14T09:35:35.019086Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 748 out of 1000
+[2m2023-12-14T09:35:35.039725Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#?#???#????#???.?
+[2m2023-12-14T09:35:35.039752Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	224668004
+[2m2023-12-14T09:35:58.677635Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 749 out of 1000
+[2m2023-12-14T09:35:58.687222Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????#.?.??.?..
+[2m2023-12-14T09:35:58.687236Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	229709840
+[2m2023-12-14T09:36:05.964663Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 750 out of 1000
+[2m2023-12-14T09:36:05.964724Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#?#????.?.??
+[2m2023-12-14T09:36:05.964754Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	231264274
+[2m2023-12-14T09:36:15.967096Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 751 out of 1000
+[2m2023-12-14T09:36:15.967126Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#?????#??#?????.
+[2m2023-12-14T09:36:15.967134Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	233404554
+[2m2023-12-14T09:36:35.686200Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 752 out of 1000
+[2m2023-12-14T09:36:35.686225Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#?????.????#??#
+[2m2023-12-14T09:36:35.686231Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	237664161
+[2m2023-12-14T09:36:46.454343Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 753 out of 1000
+[2m2023-12-14T09:36:46.454408Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????.????.
+[2m2023-12-14T09:36:46.454428Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	240043883
+[2m2023-12-14T09:37:10.752698Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 754 out of 1000
+[2m2023-12-14T09:37:10.764201Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#??#?.??.???
+[2m2023-12-14T09:37:10.764449Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	245248843
+[2m2023-12-14T09:37:40.627815Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 755 out of 1000
+[2m2023-12-14T09:37:40.627842Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????#??#??#???.#
+[2m2023-12-14T09:37:40.627848Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	251608021
+[2m2023-12-14T09:38:00.599392Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 756 out of 1000
+[2m2023-12-14T09:38:00.607983Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#?#?...?.???#????
+[2m2023-12-14T09:38:00.608247Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	255873870
+[2m2023-12-14T09:38:11.874434Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 757 out of 1000
+[2m2023-12-14T09:38:11.895723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???.?#???#??
+[2m2023-12-14T09:38:11.895986Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	258094195
+[2m2023-12-14T09:38:15.119912Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 758 out of 1000
+[2m2023-12-14T09:38:15.119967Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.????.????
+[2m2023-12-14T09:38:15.119997Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	258663438
+[2m2023-12-14T09:38:38.891789Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 759 out of 1000
+[2m2023-12-14T09:38:38.891852Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#????#??????.?#??#?
+[2m2023-12-14T09:38:38.939729Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	263691528
+[2m2023-12-14T09:39:13.034941Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 760 out of 1000
+[2m2023-12-14T09:39:13.035041Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.????????##
+[2m2023-12-14T09:39:13.035072Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	270903628
+[2m2023-12-14T09:39:13.065877Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 761 out of 1000
+[2m2023-12-14T09:39:13.107726Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????????#??#??#??#
+[2m2023-12-14T09:39:13.107753Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	270920547
+[2m2023-12-14T09:41:05.732771Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 762 out of 1000
+[2m2023-12-14T09:41:05.733141Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???????.##?
+[2m2023-12-14T09:41:05.733367Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	295362853
+[2m2023-12-14T09:41:40.924407Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 763 out of 1000
+[2m2023-12-14T09:41:40.924763Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????.#??..?#???.##
+[2m2023-12-14T09:41:40.924989Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	302974793
+[2m2023-12-14T09:42:05.263381Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 764 out of 1000
+[2m2023-12-14T09:42:05.263406Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????###???#??
+[2m2023-12-14T09:42:05.263413Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	308253107
+[2m2023-12-14T09:42:24.851201Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 765 out of 1000
+[2m2023-12-14T09:42:24.895722Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.?..?#????#?????
+[2m2023-12-14T09:42:24.895738Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	312577071
+[2m2023-12-14T09:42:33.500679Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 766 out of 1000
+[2m2023-12-14T09:42:33.500743Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????##?##??????
+[2m2023-12-14T09:42:33.500774Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	314364596
+[2m2023-12-14T09:42:40.879820Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 767 out of 1000
+[2m2023-12-14T09:42:40.879931Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.????#?.??.
+[2m2023-12-14T09:42:40.879961Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	315887501
+[2m2023-12-14T09:43:33.703331Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 768 out of 1000
+[2m2023-12-14T09:43:33.731293Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????.?#???.????
+[2m2023-12-14T09:43:33.731516Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	326821056
+[2m2023-12-14T09:44:02.907599Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 769 out of 1000
+[2m2023-12-14T09:44:02.907701Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#????.#.??????.?.?.
+[2m2023-12-14T09:44:02.907743Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	333026699
+[2m2023-12-14T09:44:11.110256Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 770 out of 1000
+[2m2023-12-14T09:44:11.119722Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.????.???#
+[2m2023-12-14T09:44:11.119741Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	334734298
+[2m2023-12-14T09:44:34.599509Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 771 out of 1000
+[2m2023-12-14T09:44:34.632049Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????#????#??.????.
+[2m2023-12-14T09:44:34.632275Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	339713695
+[2m2023-12-14T09:44:50.340478Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 772 out of 1000
+[2m2023-12-14T09:44:50.355725Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#.?#??#????#??#???
+[2m2023-12-14T09:44:50.355748Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	343022263
+[2m2023-12-14T09:45:41.411147Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 773 out of 1000
+[2m2023-12-14T09:45:41.411551Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#.?#????.??????
+[2m2023-12-14T09:45:41.411779Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	354162820
+[2m2023-12-14T09:46:04.136597Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 774 out of 1000
+[2m2023-12-14T09:46:04.136654Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.???#??#?##???
+[2m2023-12-14T09:46:04.136666Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	358915677
+[2m2023-12-14T09:46:24.663778Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 775 out of 1000
+[2m2023-12-14T09:46:24.663803Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???????#.?.?
+[2m2023-12-14T09:46:24.663808Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	363312789
+[2m2023-12-14T09:46:37.681483Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 776 out of 1000
+[2m2023-12-14T09:46:37.681943Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????#?????
+[2m2023-12-14T09:46:37.682249Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	366104262
+[2m2023-12-14T09:47:22.729382Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 777 out of 1000
+[2m2023-12-14T09:47:22.729485Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????#??#?????
+[2m2023-12-14T09:47:22.729516Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	375596470
+[2m2023-12-14T09:48:06.714168Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 778 out of 1000
+[2m2023-12-14T09:48:06.714524Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.??#???#???????????
+[2m2023-12-14T09:48:06.714753Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	384596866
+[2m2023-12-14T09:48:06.930100Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 779 out of 1000
+[2m2023-12-14T09:48:06.939723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#???????
+[2m2023-12-14T09:48:06.939977Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	384640928
+[2m2023-12-14T09:49:36.318381Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 780 out of 1000
+[2m2023-12-14T09:49:36.355723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#???..?????
+[2m2023-12-14T09:49:36.355742Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	402996189
+[2m2023-12-14T09:49:50.128903Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 781 out of 1000
+[2m2023-12-14T09:49:50.128926Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????????.??#???#
+[2m2023-12-14T09:49:50.128931Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	405831175
+[2m2023-12-14T09:50:53.014498Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 782 out of 1000
+[2m2023-12-14T09:50:53.039911Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#??#??????##???
+[2m2023-12-14T09:50:53.039933Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	419008449
+[2m2023-12-14T09:51:05.709820Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 783 out of 1000
+[2m2023-12-14T09:51:05.709880Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???????.??
+[2m2023-12-14T09:51:05.709900Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	421511123
+[2m2023-12-14T09:51:11.054928Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 784 out of 1000
+[2m2023-12-14T09:51:11.054954Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#?.????.????#####
+[2m2023-12-14T09:51:11.054960Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	422659134
+[2m2023-12-14T09:52:03.731992Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 785 out of 1000
+[2m2023-12-14T09:52:03.732018Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	..??..????.#?????
+[2m2023-12-14T09:52:03.732024Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	433750004
+[2m2023-12-14T09:53:38.681324Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 786 out of 1000
+[2m2023-12-14T09:53:38.681347Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???##??????.??
+[2m2023-12-14T09:53:38.681352Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	453600374
+[2m2023-12-14T09:55:05.141627Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 787 out of 1000
+[2m2023-12-14T09:55:05.141721Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????.???#???.?#.?.
+[2m2023-12-14T09:55:05.141743Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	471113101
+[2m2023-12-14T09:55:27.765719Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 788 out of 1000
+[2m2023-12-14T09:55:27.765742Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#..?????????##?
+[2m2023-12-14T09:55:27.765746Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	475604268
+[2m2023-12-14T09:59:03.584617Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 789 out of 1000
+[2m2023-12-14T09:59:03.584668Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.??##??#???#.?????#
+[2m2023-12-14T09:59:03.584680Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	519266573
+[2m2023-12-14T10:00:15.516533Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 790 out of 1000
+[2m2023-12-14T10:00:15.516558Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.??.?????###?
+[2m2023-12-14T10:00:15.516565Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	533650825
+[2m2023-12-14T10:00:33.111648Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 791 out of 1000
+[2m2023-12-14T10:00:33.120200Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.??.???###?????????.
+[2m2023-12-14T10:00:33.120466Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	537224264
+[2m2023-12-14T10:00:38.293358Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 792 out of 1000
+[2m2023-12-14T10:00:38.293408Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#??.??.?
+[2m2023-12-14T10:00:38.293419Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	538245683
+[2m2023-12-14T10:00:57.271106Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 793 out of 1000
+[2m2023-12-14T10:00:57.271155Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.#???????.??
+[2m2023-12-14T10:00:57.271167Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	542225144
+[2m2023-12-14T10:02:00.890383Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 794 out of 1000
+[2m2023-12-14T10:02:00.890407Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.?#???#??#?#??.???
+[2m2023-12-14T10:02:00.890411Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	554668293
+[2m2023-12-14T10:02:11.821968Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 795 out of 1000
+[2m2023-12-14T10:02:11.822369Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.??#????????.???
+[2m2023-12-14T10:02:11.822595Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	556875826
+[2m2023-12-14T10:06:09.365784Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 796 out of 1000
+[2m2023-12-14T10:06:09.365836Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.??#??????.?
+[2m2023-12-14T10:06:09.365859Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	603790923
+[2m2023-12-14T10:07:46.950177Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 797 out of 1000
+[2m2023-12-14T10:07:46.979094Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.??#?????#.?????#
+[2m2023-12-14T10:07:47.159723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	623459853
+[2m2023-12-14T10:08:43.749277Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 798 out of 1000
+[2m2023-12-14T10:08:43.749303Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???.???##????????.?#
+[2m2023-12-14T10:08:43.749309Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	634559060
+[2m2023-12-14T10:11:07.710880Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 799 out of 1000
+[2m2023-12-14T10:11:07.710943Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.?..???????
+[2m2023-12-14T10:11:07.710971Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	663234588
+[2m2023-12-14T10:14:55.486087Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 800 out of 1000
+[2m2023-12-14T10:14:55.531727Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????.#????
+[2m2023-12-14T10:14:55.531973Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	707093836
+[2m2023-12-14T10:16:10.273605Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 801 out of 1000
+[2m2023-12-14T10:16:10.273630Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.?#?????#???#
+[2m2023-12-14T10:16:10.273634Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	721311884
+[2m2023-12-14T10:18:05.182931Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 802 out of 1000
+[2m2023-12-14T10:18:05.183399Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?????.#.?
+[2m2023-12-14T10:18:05.183704Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	743893511
+[2m2023-12-14T10:18:26.666768Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 803 out of 1000
+[2m2023-12-14T10:18:26.666792Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.??.???###????#???
+[2m2023-12-14T10:18:26.666796Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	747773359
+[2m2023-12-14T10:19:19.712387Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 804 out of 1000
+[2m2023-12-14T10:19:19.719721Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.#.??.????.
+[2m2023-12-14T10:19:19.719992Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	757922769
+[2m2023-12-14T10:19:27.080698Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 805 out of 1000
+[2m2023-12-14T10:19:27.095724Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#?.???????
+[2m2023-12-14T10:19:27.095977Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	759329063
+[2m2023-12-14T10:21:46.048609Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 806 out of 1000
+[2m2023-12-14T10:21:46.055723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.??.???.?.
+[2m2023-12-14T10:21:46.055976Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	786112327
+[2m2023-12-14T10:21:51.579820Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 807 out of 1000
+[2m2023-12-14T10:21:51.579871Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??###??#???????
+[2m2023-12-14T10:21:51.579888Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	787146165
+[2m2023-12-14T10:21:54.325760Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 808 out of 1000
+[2m2023-12-14T10:21:54.325849Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????.?#???
+[2m2023-12-14T10:21:54.325871Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	787655801
+[2m2023-12-14T10:23:05.888357Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 809 out of 1000
+[2m2023-12-14T10:23:05.888719Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#?#???????.??##????
+[2m2023-12-14T10:23:05.888943Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	800989274
+[2m2023-12-14T10:24:25.838810Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 810 out of 1000
+[2m2023-12-14T10:24:25.838836Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.??.?.?.#?.?
+[2m2023-12-14T10:24:25.838842Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	816342296
+[2m2023-12-14T10:26:18.864639Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 811 out of 1000
+[2m2023-12-14T10:26:18.864665Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#???#####??..???.
+[2m2023-12-14T10:26:18.864671Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	837956224
+[2m2023-12-14T10:26:24.867508Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 812 out of 1000
+[2m2023-12-14T10:26:24.867847Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????#?##?????
+[2m2023-12-14T10:26:24.868077Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	839129893
+[2m2023-12-14T10:28:11.209345Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 813 out of 1000
+[2m2023-12-14T10:28:11.209397Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	##?#?.??.????????#
+[2m2023-12-14T10:28:11.209420Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	858998089
+[2m2023-12-14T10:29:08.560343Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 814 out of 1000
+[2m2023-12-14T10:29:08.560397Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#?#??.????????
+[2m2023-12-14T10:29:08.560409Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	869403230
+[2m2023-12-14T10:33:12.894928Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 815 out of 1000
+[2m2023-12-14T10:33:12.911565Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??##.????#?.??????
+[2m2023-12-14T10:33:12.911821Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	914180973
+[2m2023-12-14T10:37:53.360515Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 816 out of 1000
+[2m2023-12-14T10:37:53.371979Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#?.????????#.
+[2m2023-12-14T10:37:53.372219Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	966732895
+[2m2023-12-14T10:40:34.819795Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 817 out of 1000
+[2m2023-12-14T10:40:34.819877Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????.?#??.??#
+[2m2023-12-14T10:40:34.819905Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	997274837
+[2m2023-12-14T10:42:27.684282Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 818 out of 1000
+[2m2023-12-14T10:42:27.699728Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????#???..??
+[2m2023-12-14T10:42:27.911737Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1017624417
+[2m2023-12-14T10:42:51.021928Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 819 out of 1000
+[2m2023-12-14T10:42:51.021954Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.????.##???????
+[2m2023-12-14T10:42:51.021960Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1021859691
+[2m2023-12-14T10:54:12.199053Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 820 out of 1000
+[2m2023-12-14T10:54:12.199111Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????????#??.
+[2m2023-12-14T10:54:12.199135Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1148383811
+[2m2023-12-14T10:55:19.905032Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 821 out of 1000
+[2m2023-12-14T10:55:19.905385Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	..##?.?#?.??????
+[2m2023-12-14T10:55:19.905616Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1160734550
+[2m2023-12-14T10:55:42.098886Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 822 out of 1000
+[2m2023-12-14T10:55:42.099247Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?????.???#?
+[2m2023-12-14T10:55:42.287726Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1164703401
+[2m2023-12-14T10:58:55.131786Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 823 out of 1000
+[2m2023-12-14T10:58:55.132118Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??..?#??.????????
+[2m2023-12-14T10:58:55.132344Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1200016199
+[2m2023-12-14T11:00:35.815631Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 824 out of 1000
+[2m2023-12-14T11:00:35.859724Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?..???.?##??#.????
+[2m2023-12-14T11:00:35.859739Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1217724569
+[2m2023-12-14T11:03:53.588228Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 825 out of 1000
+[2m2023-12-14T11:03:53.588546Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???..????.
+[2m2023-12-14T11:03:53.588773Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1252908588
+[2m2023-12-14T11:05:38.965924Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 826 out of 1000
+[2m2023-12-14T11:05:38.966716Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????.?.?#
+[2m2023-12-14T11:05:38.966728Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1272404246
+[2m2023-12-14T11:06:49.923238Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 827 out of 1000
+[2m2023-12-14T11:06:49.930507Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#????.??????
+[2m2023-12-14T11:06:49.930761Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1285211956
+[2m2023-12-14T11:08:09.907547Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 828 out of 1000
+[2m2023-12-14T11:08:09.949866Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.????.??.??
+[2m2023-12-14T11:08:09.949891Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1299747356
+[2m2023-12-14T11:09:29.801714Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 829 out of 1000
+[2m2023-12-14T11:09:29.813034Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	###?????.??????#?
+[2m2023-12-14T11:09:29.813072Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1313618637
+[2m2023-12-14T11:14:43.660403Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 830 out of 1000
+[2m2023-12-14T11:14:43.660500Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???????.?#?.???##???
+[2m2023-12-14T11:14:43.660521Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1369155140
+[2m2023-12-14T11:15:06.615025Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 831 out of 1000
+[2m2023-12-14T11:15:06.627722Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?????..???.
+[2m2023-12-14T11:15:06.627737Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1373276568
+[2m2023-12-14T11:15:30.774580Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 832 out of 1000
+[2m2023-12-14T11:15:30.774603Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#????..???.#???
+[2m2023-12-14T11:15:30.774608Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1377567402
+[2m2023-12-14T11:16:09.525931Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 833 out of 1000
+[2m2023-12-14T11:16:09.537298Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????..??#??.?
+[2m2023-12-14T11:16:09.537539Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1384720487
+[2m2023-12-14T11:26:20.779766Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 834 out of 1000
+[2m2023-12-14T11:26:20.793258Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??..?????.?.
+[2m2023-12-14T11:26:20.793497Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1492000933
+[2m2023-12-14T11:31:08.565979Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 835 out of 1000
+[2m2023-12-14T11:31:08.566037Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#??.?.?????#?
+[2m2023-12-14T11:31:08.566067Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1542344307
+[2m2023-12-14T11:33:28.307363Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 836 out of 1000
+[2m2023-12-14T11:33:28.307768Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????.?????
+[2m2023-12-14T11:33:28.307995Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1566660423
+[2m2023-12-14T11:34:47.272817Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 837 out of 1000
+[2m2023-12-14T11:34:47.291728Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#?.#????????.??
+[2m2023-12-14T11:34:47.291772Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1580458234
+[2m2023-12-14T11:36:28.806939Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 838 out of 1000
+[2m2023-12-14T11:36:28.831723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???????.??
+[2m2023-12-14T11:36:28.832000Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1599281532
+[2m2023-12-14T11:41:16.616696Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 839 out of 1000
+[2m2023-12-14T11:41:16.631723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????..?..#???
+[2m2023-12-14T11:41:16.631754Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1649414536
+[2m2023-12-14T11:43:41.777022Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 840 out of 1000
+[2m2023-12-14T11:43:41.799726Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.??#??..???.????
+[2m2023-12-14T11:43:41.799757Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1674838288
+[2m2023-12-14T11:44:09.041821Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 841 out of 1000
+[2m2023-12-14T11:44:09.055721Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???....?????.??#????
+[2m2023-12-14T11:44:09.055736Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1679676030
+[2m2023-12-14T11:59:36.999029Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 842 out of 1000
+[2m2023-12-14T11:59:36.999133Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????.#??????????
+[2m2023-12-14T11:59:36.999154Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1846256353
+[2m2023-12-14T12:12:42.327785Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 843 out of 1000
+[2m2023-12-14T12:12:42.327838Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#???..????#..#?????
+[2m2023-12-14T12:12:42.327861Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	1985031160
+[2m2023-12-14T12:17:16.224636Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 844 out of 1000
+[2m2023-12-14T12:17:16.224661Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???#?.??.?.#???
+[2m2023-12-14T12:17:16.224665Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	2035236382
+[2m2023-12-14T12:23:09.544152Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 845 out of 1000
+[2m2023-12-14T12:23:09.544518Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.???.???#?.?
+[2m2023-12-14T12:23:09.544751Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	2098968382
+[2m2023-12-14T12:39:31.710776Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 846 out of 1000
+[2m2023-12-14T12:39:31.744999Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.???????????#??#
+[2m2023-12-14T12:39:31.745026Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	2275953567
+[2m2023-12-14T12:47:34.593483Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 847 out of 1000
+[2m2023-12-14T12:47:34.611725Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????????.?#
+[2m2023-12-14T12:47:34.611994Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	2361195411
+[2m2023-12-14T12:49:16.923993Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 848 out of 1000
+[2m2023-12-14T12:49:16.924047Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?.???.????#??#?#??#?
+[2m2023-12-14T12:49:16.924067Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	2378946161
+[2m2023-12-14T12:54:46.974438Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 849 out of 1000
+[2m2023-12-14T12:54:46.995721Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???.?#???????#??..
+[2m2023-12-14T12:54:46.995735Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	2436088828
+[2m2023-12-14T12:55:49.490153Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 850 out of 1000
+[2m2023-12-14T12:55:49.515724Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????????..??..
+[2m2023-12-14T12:55:49.515950Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	2446985631
+[2m2023-12-14T13:09:26.798929Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 851 out of 1000
+[2m2023-12-14T13:09:26.832612Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#.???????
+[2m2023-12-14T13:09:26.832630Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	2592997808
+[2m2023-12-14T13:12:40.822156Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 852 out of 1000
+[2m2023-12-14T13:12:40.826584Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#??.?????#.?.??.
+[2m2023-12-14T13:12:40.826806Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	2626783976
+[2m2023-12-14T13:24:38.663314Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 853 out of 1000
+[2m2023-12-14T13:24:38.692778Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.#???..???.#?
+[2m2023-12-14T13:24:38.693016Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	2756155733
+[2m2023-12-14T13:32:55.773834Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 854 out of 1000
+[2m2023-12-14T13:32:55.773857Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.?.???????#????#???#
+[2m2023-12-14T13:32:55.773862Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	2842699542
+[2m2023-12-14T13:41:40.942332Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 855 out of 1000
+[2m2023-12-14T13:41:40.975728Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?##???.????.?.??
+[2m2023-12-14T13:41:41.042080Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	2936304407
+[2m2023-12-14T14:03:26.394724Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 856 out of 1000
+[2m2023-12-14T14:03:26.395985Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????#?.???#????
+[2m2023-12-14T14:03:26.396001Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	3175641492
+[2m2023-12-14T14:13:49.647183Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 857 out of 1000
+[2m2023-12-14T14:13:49.651551Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????.?#.??????#?.??
+[2m2023-12-14T14:13:49.651564Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	3288502657
+[2m2023-12-14T14:14:56.582849Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 858 out of 1000
+[2m2023-12-14T14:14:56.615723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??.??#.???#??????
+[2m2023-12-14T14:14:56.615741Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	3300596826
+[2m2023-12-14T14:19:23.684758Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 859 out of 1000
+[2m2023-12-14T14:19:23.684853Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????????#?#??????.??
+[2m2023-12-14T14:19:23.684884Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	3350309325
+[2m2023-12-14T14:20:55.965187Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 860 out of 1000
+[2m2023-12-14T14:20:55.965604Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????????#?#?
+[2m2023-12-14T14:20:55.965829Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	3368228386
+[2m2023-12-14T14:32:54.885681Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 861 out of 1000
+[2m2023-12-14T14:32:54.903722Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.????.?????
+[2m2023-12-14T14:32:54.903736Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	3499875421
+[2m2023-12-14T14:33:30.482404Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 862 out of 1000
+[2m2023-12-14T14:33:30.507723Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	#?????#??????????
+[2m2023-12-14T14:33:30.507739Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	3505831890
+[2m2023-12-14T14:41:47.210808Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 863 out of 1000
+[2m2023-12-14T14:41:47.231722Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??#.?????????.??
+[2m2023-12-14T14:41:47.231737Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	3599410336
+[2m2023-12-14T14:51:51.365582Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 864 out of 1000
+[2m2023-12-14T14:51:51.371725Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	??????..????.??#???
+[2m2023-12-14T14:51:51.371747Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	3713915221
+[2m2023-12-14T14:57:47.294442Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 865 out of 1000
+[2m2023-12-14T14:57:47.299721Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?#????????.??????
+[2m2023-12-14T14:57:47.299735Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	3780695069
+[2m2023-12-14T15:03:12.707805Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 866 out of 1000
+[2m2023-12-14T15:03:12.711073Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????.?????
+[2m2023-12-14T15:03:12.711094Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	3843148916
+[2m2023-12-14T15:07:57.239845Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 867 out of 1000
+[2m2023-12-14T15:07:57.239868Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???.????.#???.??
+[2m2023-12-14T15:07:57.239872Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	3895906326
+[2m2023-12-14T15:09:06.146524Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 868 out of 1000
+[2m2023-12-14T15:09:06.146614Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????#?????????
+[2m2023-12-14T15:09:06.146636Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	3909454408
+[2m2023-12-14T15:26:42.608548Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 869 out of 1000
+[2m2023-12-14T15:26:42.608891Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	????????????##?#??..
+[2m2023-12-14T15:26:42.609116Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	4116138395
+[2m2023-12-14T15:32:19.768480Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 870 out of 1000
+[2m2023-12-14T15:32:19.768572Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?...?????.????.
+[2m2023-12-14T15:32:19.768585Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	4180779160
+[2m2023-12-14T15:38:41.253960Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 871 out of 1000
+[2m2023-12-14T15:38:41.256386Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	.???#?.??.#..?????
+[2m2023-12-14T15:38:41.256400Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	4255697619
+[2m2023-12-14T15:49:32.050794Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 872 out of 1000
+[2m2023-12-14T15:49:32.063721Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	?????.???#??????
+[2m2023-12-14T15:49:32.063735Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	4384318478
+[2m2023-12-14T16:06:26.271839Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m Finished 873 out of 1000
+[2m2023-12-14T16:06:26.295724Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	OrigPattern	???..???..??#????
+[2m2023-12-14T16:06:26.295746Z[0m [32m INFO[0m [2mday_12::part2[0m[2m:[0m 	CurrResult	4582409834
